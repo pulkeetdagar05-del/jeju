@@ -44,7 +44,7 @@ export default function StockMarket() {
 
     // Next expected value
     tooltipBox.appendChild(Create.TooltipCreateHeader('Expected Next Value'));
-    const expectedValue = document.createElement('div');
+    const expectedNextValue = document.createElement('div');
     expectedNextValue.id = 'CMTooltipExpectedValue';
     tooltipBox.appendChild(expectedNextValue);
     const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects['Bank'].level, Game.auraMult('Supreme Intellect'));
