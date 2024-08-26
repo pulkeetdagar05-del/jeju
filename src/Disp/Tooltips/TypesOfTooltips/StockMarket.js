@@ -34,7 +34,7 @@ export default function StockMarket() {
     const deltaColour = stock.d < 0 ? ColourRed : ColourGreen;
     delta.className = ColourTextPre + deltaColour;
 
-    // Current stock resting value
+    // Stock resting value
     tooltipBox.appendChild(Create.TooltipCreateHeader('Resting Value'));
     const restingValue = document.createElement('div');
     restingValue.id = 'CMTooltipRestingValue';
