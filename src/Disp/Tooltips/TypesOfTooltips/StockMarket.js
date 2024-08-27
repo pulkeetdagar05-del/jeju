@@ -1,7 +1,6 @@
 import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { ColourGreen, ColourBlue, ColourOrange, ColourRed, ColourPurple, ColourGray } from '../../VariablesAndData';
+import { TooltipName, ColourTextPre, ColourGreen, ColourBlue, ColourOrange, ColourRed, ColourPurple, ColourGray } from '../../VariablesAndData';
 import CalculateStockNextExpectedValue from '../../HelperFunctions/CalculateStockNextExpectedValue';
-import { TooltipName, ColourTextPre } from '../../VariablesAndData';
 import * as Create from '../CreateTooltip';
 
 /**
@@ -9,7 +8,7 @@ import * as Create from '../CreateTooltip';
  * It adds to the additional information to l('CMTooltipArea')
  */
 export default function StockMarket() {
-  const { minigame } = Game.Objects['Bank'];
+  const { minigame } = Game.Objects.Bank;
   if (Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TooltipStocks) {
     const tooltipBox = l('CMTooltipBorder');
     const stock = minigame.goodsById[TooltipName];
@@ -47,7 +46,7 @@ export default function StockMarket() {
     const expectedNextValue = document.createElement('div');
     expectedNextValue.id = 'CMTooltipExpectedValue';
     tooltipBox.appendChild(expectedNextValue);
-    const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects['Bank'].level, Game.auraMult('Supreme Intellect'));
+    const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects.Bank.level, Game.auraMult('Supreme Intellect'));
     expectedNextValue.textContent = Beautify(expectedValue);
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;

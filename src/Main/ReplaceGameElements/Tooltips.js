@@ -63,7 +63,7 @@ function ReplaceTooltipGarden() {
  */
 function ReplaceTooltipMarket() {
   if (Game.Objects.Bank.minigameLoaded) {
-    for (let i = 0; i < Game.Objects['Bank'].minigame.goodsByID.length; i++) {
+    for (let i = 0; i < Game.Objects.Bank.minigame.goodsByID.length; i++) {
       l(`bankGood-${i}`).onmouseover = function () {
         Game.tooltip.dynamic = 1;
         Game.tooltip.draw(this, () => CreateTooltip('sm', i), 'this');

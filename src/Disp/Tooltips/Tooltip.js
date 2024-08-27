@@ -99,7 +99,7 @@ export function CreateTooltip(type, name) {
   // Harvest all button in garden
   else if (type === 'ha') l('tooltip').innerHTML = Game.ObjectsById[2].minigame.toolTooltip(1)();
   // Stock market
-  else if (type === 'sm') l('tooltip').innerHTML = Game.Objects['Bank'].minigame.goodTooltip(name)();
+  else if (type === 'sm') l('tooltip').innerHTML = Game.Objects.Bank.minigame.goodTooltip(name)();
   else if (type === 'wb') l('tooltip').innerHTML = '';
   else if (type === 'pag') l('tooltip').innerHTML = Game.Objects.Temple.minigame.godTooltip(name)();
   else if (type === 'pas')
