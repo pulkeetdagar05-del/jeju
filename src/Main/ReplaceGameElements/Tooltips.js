@@ -58,6 +58,21 @@ function ReplaceTooltipGarden() {
   }
 }
 
+/**
+ * This function replaces the original .onmouseover functions of all stocks
+ */
+function ReplaceTooltipMarket() {
+  if (Game.Objects.Bank.minigameLoaded) {
+    for (let i = 0; i < Game.Objects['Bank'].minigame.goodsByID.length; i++) {
+      l(`bankGood-${i}`).onmouseover = function () {
+        Game.tooltip.dynamic = 1;
+        Game.tooltip.draw(this, () => CreateTooltip('sm', i), 'this');
+        Game.tooltip.wobble();
+      };
+    }
+  }
+}
+
 function ReplaceTooltipPantheon() {
   if (Game.Objects.Temple.minigameLoaded) {
     for (let i = 0; i < 11; i += 1) {
@@ -96,6 +111,7 @@ export default function ReplaceTooltips() {
     LoadMinigames();
     ReplaceTooltipGarden();
     ReplaceTooltipGrimoire();
+    ReplaceTooltipMarket();
     ReplaceTooltipPantheon();
     ReplaceNativeGrimoire();
   };
