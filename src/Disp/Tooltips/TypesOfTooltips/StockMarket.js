@@ -29,7 +29,7 @@ export default function StockMarket() {
     const delta = document.createElement('div');
     delta.id = 'CMTooltipDelta';
     tooltipBox.appendChild(delta);
-    delta.textContent = `${Beautify(stock.d)}`;
+    delta.textContent = Beautify(stock.d);
     const deltaColour = stock.d < 0 ? ColourRed : ColourGreen;
     delta.className = ColourTextPre + deltaColour;
 
