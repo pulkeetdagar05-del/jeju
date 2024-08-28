@@ -47,7 +47,7 @@ export default function StockMarket() {
     expectedNextValue.id = 'CMTooltipExpectedValue';
     tooltipBox.appendChild(expectedNextValue);
     const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects.Bank.level, Game.auraMult('Supreme Intellect'));
-    expectedNextValue.textContent = `'$'${Beautify(expectedValue)}`;
+    expectedNextValue.textContent = `'$'+${Beautify(expectedValue)}`;
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;
 
