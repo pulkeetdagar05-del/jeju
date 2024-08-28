@@ -1,5 +1,5 @@
 import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { TooltipName, ColourTextPre, ColourGreen, ColourBlue, ColourOrange, ColourRed, ColourPurple, ColourGray } from '../../VariablesAndData';
+import { TooltipName, ColourTextPre, ColourGreen, ColourYellow, ColourOrange, ColourRed, ColourPurple, ColourGray } from '../../VariablesAndData';
 import CalculateStockNextExpectedValue from '../../HelperFunctions/CalculateStockNextExpectedValue';
 import * as Create from '../CreateTooltip';
 
@@ -21,7 +21,7 @@ export default function StockMarket() {
     const modeIndex = stock.mode;
     const modes = ['Stable', 'Slow Rise', 'Slow Fall', 'Fast Rise', 'Fast Fall', 'Chaotic'];
     stockMode.textContent = modes[modeIndex];
-    const colours = [ColourGray, ColourBlue, ColourOrange, ColourGreen, ColourRed, ColourPurple];
+    const colours = [ColourGray, ColourYellow, ColourOrange, ColourGreen, ColourRed, ColourPurple];
     stockMode.className = ColourTextPre + colours[modeIndex];
 
     // Current stock delta value
