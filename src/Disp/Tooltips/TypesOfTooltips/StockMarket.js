@@ -1,5 +1,14 @@
 import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { TooltipName, ColourTextPre, ColourGreen, ColourYellow, ColourOrange, ColourRed, ColourPurple, ColourGray } from '../../VariablesAndData';
+import {
+  TooltipName,
+  ColourTextPre,
+  ColourGreen,
+  ColourYellow,
+  ColourOrange,
+  ColourRed,
+  ColourPurple,
+  ColourGray,
+} from '../../VariablesAndData';
 import CalculateStockNextExpectedValue from '../../HelperFunctions/CalculateStockNextExpectedValue';
 import * as Create from '../CreateTooltip';
 
@@ -46,7 +55,14 @@ export default function StockMarket() {
     const expectedNextValue = document.createElement('div');
     expectedNextValue.id = 'CMTooltipExpectedValue';
     tooltipBox.appendChild(expectedNextValue);
-    const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects.Bank.level, Game.auraMult('Supreme Intellect'));
+    const expectedValue = CalculateStockNextExpectedValue(
+      stock.val,
+      stock.d,
+      minigame.getRestingVal(stock.id),
+      stock.mode,
+      Game.Objects.Bank.level,
+      Game.auraMult('Supreme Intellect'),
+    );
     expectedNextValue.textContent = `$${Beautify(expectedValue)}`;
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;
