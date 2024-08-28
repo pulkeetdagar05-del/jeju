@@ -29,7 +29,7 @@ export default function StockMarket() {
     const delta = document.createElement('div');
     delta.id = 'CMTooltipDelta';
     tooltipBox.appendChild(delta);
-    delta.textContent = `'$'${Beautify(stock.d)}`;
+    delta.textContent = `$${Beautify(stock.d)}`;
     const deltaColour = stock.d < 0 ? ColourRed : ColourGreen;
     delta.className = ColourTextPre + deltaColour;
 
@@ -38,7 +38,7 @@ export default function StockMarket() {
     const restingValue = document.createElement('div');
     restingValue.id = 'CMTooltipRestingValue';
     tooltipBox.appendChild(restingValue);
-    restingValue.textContent = `'$'${Beautify(minigame.getRestingVal(stock.id))}`;
+    restingValue.textContent = `$${Beautify(minigame.getRestingVal(stock.id))}`;
     restingValue.style.color = 'white';
 
     // Next expected value
@@ -47,7 +47,7 @@ export default function StockMarket() {
     expectedNextValue.id = 'CMTooltipExpectedValue';
     tooltipBox.appendChild(expectedNextValue);
     const expectedValue = CalculateStockNextExpectedValue(stock.val, stock.d, minigame.getRestingVal(stock.id), stock.mode, Game.Objects.Bank.level, Game.auraMult('Supreme Intellect'));
-    expectedNextValue.textContent = `'$'+${Beautify(expectedValue)}`;
+    expectedNextValue.textContent = `$${Beautify(expectedValue)}`;
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;
 
