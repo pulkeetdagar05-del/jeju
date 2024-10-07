@@ -133,7 +133,7 @@ export function UpdateTimerBar() {
       updateChanceTotal(chanceToSpawn);
       l('CMTimerBarGCTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.time) / Game.fps,
-      )} ${getChanceFinal() < 0.01 ? '<' : ''}${getChanceFinal().toLocaleString('en', {
+      )} ${getChanceFinal() < 0.01 ? '<' : ''}${(getChanceFinal() + 0.01).toLocaleString('en', { // "<0%" makes no sense. Should be offset by 0.01 (1%).
         style: 'percent',
       })}`;
       numberOfTimers += 1;
