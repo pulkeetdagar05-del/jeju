@@ -63,7 +63,9 @@ export default function StockMarket() {
       Game.Objects.Bank.level,
       Game.auraMult('Supreme Intellect'),
     );
-    expectedNextValue.textContent = `$${Beautify(expectedValue) + (expectedValue < stock.val ? '\u25bc' : '\u25b2')}`;
+    expectedNextValue.textContent = `$${
+      Beautify(expectedValue) + (expectedValue < stock.val ? '\u25bc' : '\u25b2')
+    }`;
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;
 

@@ -77,7 +77,7 @@ export function UpdateTimerBar() {
       l('CMTimerBarAutosaveBar').style.width = `${Math.round(
         (timeTillNextAutosave *
           (maxWidthOneBar - Math.ceil(timeTillNextAutosave).toString().length * 8)) /
-        60,
+          60,
       )}px`;
       if (
         Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TimerBarOverlay >= 1
@@ -94,7 +94,7 @@ export function UpdateTimerBar() {
       l('CMTimerBarGCMinBar').style.width = `${Math.round(
         (Math.max(0, Game.shimmerTypes.golden.minTime - Game.shimmerTypes.golden.time) *
           maxWidthTwoBar) /
-        Game.shimmerTypes.golden.maxTime,
+          Game.shimmerTypes.golden.maxTime,
       )}px`;
       if (Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TimerBarOverlay >= 1)
         l('CMTimerBarGCMinBar').textContent = Math.ceil(
@@ -114,7 +114,7 @@ export function UpdateTimerBar() {
           Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.time,
         ) *
           maxWidthTwoBar) /
-        Game.shimmerTypes.golden.maxTime,
+          Game.shimmerTypes.golden.maxTime,
       )}px`;
       if (Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TimerBarOverlay >= 1)
         l('CMTimerBarGCBar').textContent = Math.ceil(
@@ -128,7 +128,7 @@ export function UpdateTimerBar() {
         Math.max(
           0,
           (Game.shimmerTypes.golden.time - Game.shimmerTypes.golden.minTime) /
-          (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.minTime),
+            (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.minTime),
         ) ** 5;
       updateChanceTotal(chanceToSpawn);
       l('CMTimerBarGCTime').textContent = `${Math.ceil(
@@ -145,7 +145,7 @@ export function UpdateTimerBar() {
       l('CMTimerBarRenMinBar').style.width = `${Math.round(
         (Math.max(0, Game.shimmerTypes.reindeer.minTime - Game.shimmerTypes.reindeer.time) *
           maxWidthTwoBar) /
-        Game.shimmerTypes.reindeer.maxTime,
+          Game.shimmerTypes.reindeer.maxTime,
       )}px`;
       if (Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TimerBarOverlay >= 1)
         l('CMTimerBarRenMinBar').textContent = Math.ceil(
@@ -158,7 +158,7 @@ export function UpdateTimerBar() {
           Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.time,
         ) *
           maxWidthTwoBar) /
-        Game.shimmerTypes.reindeer.maxTime,
+          Game.shimmerTypes.reindeer.maxTime,
       )}px`;
       if (Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.TimerBarOverlay >= 1)
         l('CMTimerBarRenBar').textContent = Math.ceil(
@@ -172,7 +172,7 @@ export function UpdateTimerBar() {
         Math.max(
           0,
           (Game.shimmerTypes.reindeer.time - Game.shimmerTypes.reindeer.minTime) /
-          (Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.minTime),
+            (Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.minTime),
         ) ** 5;
       updateChanceTotalDeer(chanceToSpawn);
       l('CMTimerBarRenTime').textContent = `${Math.ceil(
@@ -211,7 +211,7 @@ export function UpdateTimerBar() {
         timer.lastChild.children[1].style.width = `${Math.round(
           (Game.buffs[i].time *
             (maxWidthOneBar - Math.ceil(Game.buffs[i].time / Game.fps).toString().length * 8)) /
-          Game.buffs[i].maxTime,
+            Game.buffs[i].maxTime,
         )}px`;
         timer.lastChild.children[2].textContent = Math.ceil(Game.buffs[i].time / Game.fps);
         numberOfTimers += 1;
