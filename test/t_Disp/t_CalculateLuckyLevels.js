@@ -51,6 +51,7 @@ describe('CalculateLuckyLevels', () => {
     { input: 77777, luckyDigit: 77777, luckyNumber: 77777, luckyPayout: 77777 },
     { input: 799999, luckyDigit: 799999, luckyNumber: 800077, luckyPayout: 807777 },
     { input: 999999, luckyDigit: 1000007, luckyNumber: 1000077, luckyPayout: 1007777 },
+    /* eslint-disable no-loss-of-precision */
     {
       input: 123456789123456789,
       luckyDigit: 123456789123456789,
@@ -63,6 +64,7 @@ describe('CalculateLuckyLevels', () => {
       luckyNumber: 8888888888889770000,
       luckyPayout: 8888888888977770000,
     },
+    /* eslint-enable no-loss-of-precision */
   ];
 
   examples.forEach((example) => {

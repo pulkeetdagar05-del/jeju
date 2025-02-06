@@ -10,13 +10,21 @@
     "utf8_to_b64": "readonly",
     "BeautifyAll": "readonly"
   },
-  "extends": ["airbnb-base", "prettier"],
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
   "parserOptions": {
     "ecmaVersion": 12
   },
-  "ignorePatterns": ["*CookieMonster*.js", "dist/*", "node_modules/*"],
+  "ignorePatterns": [
+    "*CookieMonster*.js",
+    "dist/*",
+    "node_modules/*"
+  ],
   "rules": {
     "import/no-mutable-exports": "off", // We need to this throughout Cookie Monster
+    "no-import-assign": "off",
     "no-plusplus": [
       "error",
       {
