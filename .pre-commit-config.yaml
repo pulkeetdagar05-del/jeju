@@ -7,6 +7,6 @@ repos:
     rev: v5.0.0
     hooks:
       - id: trailing-whitespace
-        exclude: *build
+        exclude: dist
       - id: end-of-file-fixer
-        exclude: *build
+        exclude: dist
