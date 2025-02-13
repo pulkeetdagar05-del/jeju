@@ -1,5 +1,5 @@
-import { CacheSpawnedGoldenShimmer } from '../../Cache/VariablesAndData';
-import { LastGoldenCookieState } from '../../Main/VariablesAndData';
+import { CacheSpawnedGoldenShimmer } from '../../Cache/VariablesAndData.js';
+import { LastGoldenCookieState } from '../../Main/VariablesAndData.js';
 
 /**
  * This function creates the Favicon, it is called by CM.Main.DelayInit()

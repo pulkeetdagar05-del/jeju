@@ -1,8 +1,8 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l, Game } from '../../GlobalsForTesting';
+import { l, Game } from '../../GlobalsForTesting.js';
 
-import ToggleWrinklerButtons from '../../../src/Config/Toggles/ToggleWrinklerButtons';
+import ToggleWrinklerButtons from '../../../src/Config/Toggles/ToggleWrinklerButtons.js';
 
 describe('ToggleWrinklerButtons', () => {
   global.l = l;

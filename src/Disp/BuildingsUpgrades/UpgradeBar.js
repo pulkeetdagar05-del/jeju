@@ -8,7 +8,7 @@ import {
   ColourRed,
   ColourTextPre,
   ColourYellow,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function creates the legend for the upgrade bar

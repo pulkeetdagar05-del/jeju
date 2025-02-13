@@ -1,6 +1,6 @@
 /** Functions to create various DOM elements used by the Bars */
 
-import { ColourBackPre, ColourBlue, ColourTextPre } from '../VariablesAndData';
+import { ColourBackPre, ColourBlue, ColourTextPre } from '../VariablesAndData.js';
 
 /**
  * This function creates an indivudual timer for the timer bar

@@ -1,7 +1,7 @@
-import { CacheWrinklersFattest, CacheWrinklersNormal } from '../../../Cache/VariablesAndData';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { TooltipName } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import { CacheWrinklersFattest, CacheWrinklersNormal } from '../../../Cache/VariablesAndData.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import { TooltipName } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the wrinkler button tooltip

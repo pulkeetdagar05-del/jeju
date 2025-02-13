@@ -1,9 +1,14 @@
 /**
  * Section: Functions related to caching PP */
 
-import { CacheObjects1, CacheObjects10, CacheObjects100, CacheUpgrades } from '../VariablesAndData';
-import CacheBuildingsPP from './Building';
-import CacheUpgradePP from './Upgrade';
+import {
+  CacheObjects1,
+  CacheObjects10,
+  CacheObjects100,
+  CacheUpgrades,
+} from '../VariablesAndData.js';
+import CacheBuildingsPP from './Building.js';
+import CacheUpgradePP from './Upgrade.js';
 
 /**
  * This functions caches the PP of each building and upgrade and stores it in the cache

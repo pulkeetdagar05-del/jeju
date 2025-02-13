@@ -1,6 +1,6 @@
 /** Called by the "func" of individual settings */
 
-import UpdateBackground from '../Disp/HelperFunctions/UpdateBackground';
+import UpdateBackground from '../Disp/HelperFunctions/UpdateBackground.js';
 
 /**
  * This function changes the position of both the bottom and timer bar

@@ -1,6 +1,6 @@
 /** Functions related to the Timer Bar */
 
-import { UpdateBotTimerBarPosition } from '../../Config/SpecificToggles';
+import { UpdateBotTimerBarPosition } from '../../Config/SpecificToggles.js';
 import {
   BuffColours,
   ColourBackPre,
@@ -8,14 +8,14 @@ import {
   ColourOrange,
   ColourPurple,
   LastNumberOfTimers,
-} from '../VariablesAndData';
-import { CreateTimer } from './CreateDOMElements';
+} from '../VariablesAndData.js';
+import { CreateTimer } from './CreateDOMElements.js';
 import {
   updateChanceTotal,
   getChanceFinalDeer,
   getChanceFinal,
   updateChanceTotalDeer,
-} from '../../Main/CheckStates/Probability';
+} from '../../Main/CheckStates/Probability.js';
 
 /**
  * This function creates the TimerBar and appends it to l('wrapper')

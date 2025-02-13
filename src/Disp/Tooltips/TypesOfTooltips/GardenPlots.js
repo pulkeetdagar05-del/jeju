@@ -1,6 +1,6 @@
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { TooltipName } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import { TooltipName } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the Garden plots tooltips

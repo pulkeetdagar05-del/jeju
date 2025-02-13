@@ -1,5 +1,5 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { LastMagicBarFull } from '../VariablesAndData';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import { LastMagicBarFull } from '../VariablesAndData.js';
 
 /**
  * This function checks if the magic meter is full

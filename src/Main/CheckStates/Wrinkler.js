@@ -1,5 +1,5 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { LastWrinklerCount } from '../VariablesAndData';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import { LastWrinklerCount } from '../VariablesAndData.js';
 
 /**
  * This function checks if any new Wrinklers have popped up

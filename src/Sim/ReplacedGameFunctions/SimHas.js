@@ -1,4 +1,4 @@
-import { SimUpgrades } from '../VariablesAndData';
+import { SimUpgrades } from '../VariablesAndData.js';
 
 /**
  * This functions creates functions similarly to Game.Has but checks Sim Data instead of Game Data

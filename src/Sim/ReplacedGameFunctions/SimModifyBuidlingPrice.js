@@ -1,8 +1,8 @@
-import { SimObjects } from '../VariablesAndData';
-import SimAuraMult from './SimAuraMult';
-import SimEff from './SimEff';
-import SimHas from './SimHas';
-import SimHasGod from './SimHasGod';
+import { SimObjects } from '../VariablesAndData.js';
+import SimAuraMult from './SimAuraMult.js';
+import SimEff from './SimEff.js';
+import SimHas from './SimHas.js';
+import SimHasGod from './SimHasGod.js';
 
 /**
  * This function calculates the sell price of a building based on current "sim data"

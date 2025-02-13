@@ -5,7 +5,7 @@ import {
   ColourPurple,
   ColourRed,
   ColourYellow,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function returns Name and Colour as object for sugar lump type that is given as input param.

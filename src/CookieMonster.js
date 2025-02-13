@@ -1,6 +1,6 @@
-import init from './InitSaveLoad/init';
-import load from './InitSaveLoad/load';
-import save from './InitSaveLoad/save';
+import init from './InitSaveLoad/init.js';
+import load from './InitSaveLoad/load.js';
+import save from './InitSaveLoad/save.js';
 
 const CM = {
   init,
@@ -10,7 +10,7 @@ const CM = {
 
 if (typeof Steam !== 'undefined') {
   // Need to add a delay for steam
-  setTimeout(function () {
+  setTimeout(() => {
     Game.registerMod('CookieMonster', CM);
 
     // Game.registerMod also calls CM.load() which calls the loop hook

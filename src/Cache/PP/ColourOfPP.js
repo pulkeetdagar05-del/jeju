@@ -1,4 +1,4 @@
-import GetCPS from '../../Disp/HelperFunctions/GetCPS';
+import GetCPS from '../../Disp/HelperFunctions/GetCPS.js';
 import {
   ColourBlue,
   ColourGray,
@@ -7,8 +7,8 @@ import {
   ColourPurple,
   ColourRed,
   ColourYellow,
-} from '../../Disp/VariablesAndData';
-import { CacheMinPP, CachePPArray } from '../VariablesAndData';
+} from '../../Disp/VariablesAndData.js';
+import { CacheMinPP, CachePPArray } from '../VariablesAndData.js';
 
 /**
  * This functions return the colour assosciated with the given pp value

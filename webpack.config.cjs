@@ -9,9 +9,6 @@ module.exports = function (env) {
       minimize: !!env.minimize,
     },
     entry: './src/CookieMonster.js',
-    resolve: {
-      extensions: ['.js'],
-    },
     output: {
       filename: env.finalfile ? 'CookieMonster.js' : 'CookieMonsterDev.js',
       path: path.resolve(__dirname, 'dist'),

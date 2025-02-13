@@ -1,12 +1,12 @@
-import FormatTime from '../Disp/BeautifyAndFormatting/FormatTime';
-import GetCPS from '../Disp/HelperFunctions/GetCPS';
-import CacheAvgCPS from './CPS/CPS';
-import CacheCurrWrinklerCPS from './CPS/CurrWrinklerCPS';
-import CachePP from './PP/PP';
-import CacheHeavenlyChipsPS from './Stats/HeavenlyChips';
-import AllAmountTillNextAchievement from './TillNextAchievement/AllAmountTillNextAchievement';
-import { CacheTimeTillNextPrestige } from './VariablesAndData'; // eslint-disable-line no-unused-vars
-import CacheWrinklers from './Wrinklers/Wrinklers';
+import FormatTime from '../Disp/BeautifyAndFormatting/FormatTime.js';
+import GetCPS from '../Disp/HelperFunctions/GetCPS.js';
+import CacheAvgCPS from './CPS/CPS.js';
+import CacheCurrWrinklerCPS from './CPS/CurrWrinklerCPS.js';
+import CachePP from './PP/PP.js';
+import CacheHeavenlyChipsPS from './Stats/HeavenlyChips.js';
+import AllAmountTillNextAchievement from './TillNextAchievement/AllAmountTillNextAchievement.js';
+import { CacheTimeTillNextPrestige } from './VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import CacheWrinklers from './Wrinklers/Wrinklers.js';
 
 /**
  * This functions caches variables that are needed every loop

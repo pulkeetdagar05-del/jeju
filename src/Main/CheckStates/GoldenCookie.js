@@ -1,14 +1,17 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { CacheSpawnedGoldenShimmer, CacheGoldenShimmersByID } from '../../Cache/VariablesAndData'; // eslint-disable-line no-unused-vars
-import CreateGCTimer from '../../Disp/GoldenCookieTimers/GoldenCookieTimers';
-import { UpdateFavicon } from '../../Disp/TabTitle/FavIcon';
-import { GCTimers } from '../../Disp/VariablesAndData';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import {
+  CacheSpawnedGoldenShimmer, // eslint-disable-line no-unused-vars
+  CacheGoldenShimmersByID,
+} from '../../Cache/VariablesAndData.js';
+import CreateGCTimer from '../../Disp/GoldenCookieTimers/GoldenCookieTimers.js';
+import { UpdateFavicon } from '../../Disp/TabTitle/FavIcon.js';
+import { GCTimers } from '../../Disp/VariablesAndData.js';
 import {
   CurrSpawnedGoldenCookieState,
   LastGoldenCookieState,
   LastSpawnedGoldenCookieState,
-} from '../VariablesAndData';
-import { resetChanceTotal } from './Probability';
+} from '../VariablesAndData.js';
+import { resetChanceTotal } from './Probability.js';
 
 /**
  * Auxilirary function that finds all currently spawned shimmers.

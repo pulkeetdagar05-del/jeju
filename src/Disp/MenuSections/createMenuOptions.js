@@ -1,8 +1,8 @@
 import { menuFunctions as mF } from '@cookiemonsterteam/cookiemonsterframework';
-import { ConfigGroups, ConfigGroupsNotification } from '../../Data/Sectionheaders';
-import settings from '../../Data/settings';
-import UpdateColours from '../HelperFunctions/UpdateColours';
-import RefreshScale from '../HelperFunctions/RefreshScale';
+import { ConfigGroups, ConfigGroupsNotification } from '../../Data/Sectionheaders.js';
+import settings from '../../Data/settings.js';
+import UpdateColours from '../HelperFunctions/UpdateColours.js';
+import RefreshScale from '../HelperFunctions/RefreshScale.js';
 
 /**
  * Creates the <div> to be added to the Options section

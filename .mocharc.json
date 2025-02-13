@@ -1,4 +1,3 @@
 {
-  "recursive": true,
-  "require": ["esm"]
+  "recursive": true
 }

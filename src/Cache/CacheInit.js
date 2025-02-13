@@ -1,17 +1,17 @@
-import { ClickTimes } from '../Disp/VariablesAndData';
-import { CMAvgQueue, InitCookiesDiff } from './CPS/AverageQueue';
-import CacheAvgCPS from './CPS/CPS';
-import CacheDragonAuras from './Dragon/CacheDragonAuras';
-import CachePP from './PP/PP';
-import { CacheBuildingsPrices, CacheIncome } from './PriceAndIncome/PriceAndIncome';
-import { CacheChain } from './Stats/ChainCookies';
-import CacheHeavenlyChipsPS from './Stats/HeavenlyChips';
-import CacheAllMissingUpgrades from './Stats/MissingUpgrades';
-import CacheSeasonSpec from './Stats/Reindeer';
-import { CacheGoldenAndWrathCookiesMults, CacheStatsCookies } from './Stats/Stats';
-import AllAmountTillNextAchievement from './TillNextAchievement/AllAmountTillNextAchievement';
-import { CacheAverageCookiesFromClicks, HeavenlyChipsDiff } from './VariablesAndData'; // eslint-disable-line no-unused-vars
-import CacheWrinklers from './Wrinklers/Wrinklers';
+import { ClickTimes } from '../Disp/VariablesAndData.js';
+import { CMAvgQueue, InitCookiesDiff } from './CPS/AverageQueue.js';
+import CacheAvgCPS from './CPS/CPS.js';
+import CacheDragonAuras from './Dragon/CacheDragonAuras.js';
+import CachePP from './PP/PP.js';
+import { CacheBuildingsPrices, CacheIncome } from './PriceAndIncome/PriceAndIncome.js';
+import { CacheChain } from './Stats/ChainCookies.js';
+import CacheHeavenlyChipsPS from './Stats/HeavenlyChips.js';
+import CacheAllMissingUpgrades from './Stats/MissingUpgrades.js';
+import CacheSeasonSpec from './Stats/Reindeer.js';
+import { CacheGoldenAndWrathCookiesMults, CacheStatsCookies } from './Stats/Stats.js';
+import AllAmountTillNextAchievement from './TillNextAchievement/AllAmountTillNextAchievement.js';
+import { CacheAverageCookiesFromClicks, HeavenlyChipsDiff } from './VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import CacheWrinklers from './Wrinklers/Wrinklers.js';
 
 /**
  * This functions runs all cache-functions to generate all "full" cache

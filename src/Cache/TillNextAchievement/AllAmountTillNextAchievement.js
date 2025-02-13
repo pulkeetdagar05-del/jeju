@@ -1,7 +1,7 @@
-import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding';
-import FillCMDCache from '../FillCMDCache';
-import { CacheObjectsNextAchievement } from '../VariablesAndData';
-import IndividualAmountTillNextAchievement from './IndividualAmountTillNextAchievement';
+import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheObjectsNextAchievement } from '../VariablesAndData.js';
+import IndividualAmountTillNextAchievement from './IndividualAmountTillNextAchievement.js';
 
 /**
  * This functions caches the amount of buildings needed till next achievement

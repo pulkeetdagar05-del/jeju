@@ -1,6 +1,6 @@
 /** Section: Functions related to the Golden Cookie Timers */
 
-import { GCTimers } from '../VariablesAndData';
+import { GCTimers } from '../VariablesAndData.js';
 
 /**
  * This function creates a new Golden Cookie Timer and appends it CM.Disp.GCTimers based on the id of the cookie

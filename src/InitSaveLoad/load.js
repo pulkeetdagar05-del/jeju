@@ -1,11 +1,11 @@
-import { saveAndLoadingFunctions } from '@cookiemonsterteam/cookiemonsterframework/src/index';
+import { saveAndLoadingFunctions } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
 
-import headers from '../Data/headers';
-import { VersionMajor, VersionMinor } from '../Data/Moddata';
-import settings from '../Data/settings';
-import UpdateColours from '../Disp/HelperFunctions/UpdateColours';
-import CMLoopHook from '../Main/LoopHook';
-import InitData from '../Sim/InitializeData/InitData';
+import headers from '../Data/headers.js';
+import { VersionMajor, VersionMinor } from '../Data/Moddata.js';
+import settings from '../Data/settings.js';
+import UpdateColours from '../Disp/HelperFunctions/UpdateColours.js';
+import CMLoopHook from '../Main/LoopHook.js';
+import InitData from '../Sim/InitializeData/InitData.js';
 
 /**
  * This creates a load function to the CM object. Per Game code/comments:

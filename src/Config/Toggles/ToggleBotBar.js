@@ -1,5 +1,5 @@
-import { UpdateBotBar } from '../../Disp/InfoBars/BottomBar';
-import { UpdateBotTimerBarPosition } from '../SpecificToggles';
+import { UpdateBotBar } from '../../Disp/InfoBars/BottomBar.js';
+import { UpdateBotTimerBarPosition } from '../SpecificToggles.js';
 
 /**
  * This function toggle the bottom bar

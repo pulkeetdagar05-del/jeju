@@ -1,6 +1,6 @@
-import CalcNoGoldSwitchCPS from '../../Sim/Calculations/NoGoldenSwitchCalc';
-import FillCMDCache from '../FillCMDCache';
-import { CacheNoGoldSwitchCookiesPS } from '../VariablesAndData';
+import CalcNoGoldSwitchCPS from '../../Sim/Calculations/NoGoldenSwitchCalc.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheNoGoldSwitchCookiesPS } from '../VariablesAndData.js';
 
 /**
  * This function calculates CPS without the Golden Switch as it might be needed in other functions

@@ -1,21 +1,21 @@
-import { settingClasses } from '@cookiemonsterteam/cookiemonsterframework/src/index';
+import { settingClasses } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
 
-import CheckNotificationPermissions from '../Config/CheckNotificationPermissions';
-import RefreshScale from '../Disp/HelperFunctions/RefreshScale';
-import { SimDoSims } from '../Sim/VariablesAndData'; // eslint-disable-line no-unused-vars
-import ToggleBotBar from '../Config/Toggles/ToggleBotBar';
-import ToggleDetailedTime from '../Config/Toggles/ToggleDetailedTime';
-import ToggleGCTimer from '../Config/Toggles/ToggleGCTimer';
-import ToggleSectionHideButtons from '../Config/Toggles/ToggleSectionHideButtons';
-import ToggleToolWarnPos from '../Config/Toggles/ToggleToolWarnPos';
-import ToggleUpgradeBarAndColour from '../Config/Toggles/ToggleUpgradeBarAndColour';
-import ToggleUpgradeBarFixedPos from '../Config/Toggles/ToggleUpgradeBarFixedPos';
-import ToggleWrinklerButtons from '../Config/Toggles/ToggleWrinklerButtons';
-import UpdateBuildings from '../Disp/BuildingsUpgrades/Buildings';
-import { UpdateFavicon } from '../Disp/TabTitle/FavIcon';
-import UpdateUpgradeSectionsHeight from '../Disp/BuildingsUpgrades/UpdateUpgradeSectionsHeight';
-import UpdateUpgrades from '../Disp/BuildingsUpgrades/Upgrades';
-import { ToggleTimerBar, ToggleTimerBarPos } from '../Config/SpecificToggles';
+import CheckNotificationPermissions from '../Config/CheckNotificationPermissions.js';
+import RefreshScale from '../Disp/HelperFunctions/RefreshScale.js';
+import { SimDoSims } from '../Sim/VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import ToggleBotBar from '../Config/Toggles/ToggleBotBar.js';
+import ToggleDetailedTime from '../Config/Toggles/ToggleDetailedTime.js';
+import ToggleGCTimer from '../Config/Toggles/ToggleGCTimer.js';
+import ToggleSectionHideButtons from '../Config/Toggles/ToggleSectionHideButtons.js';
+import ToggleToolWarnPos from '../Config/Toggles/ToggleToolWarnPos.js';
+import ToggleUpgradeBarAndColour from '../Config/Toggles/ToggleUpgradeBarAndColour.js';
+import ToggleUpgradeBarFixedPos from '../Config/Toggles/ToggleUpgradeBarFixedPos.js';
+import ToggleWrinklerButtons from '../Config/Toggles/ToggleWrinklerButtons.js';
+import UpdateBuildings from '../Disp/BuildingsUpgrades/Buildings.js';
+import { UpdateFavicon } from '../Disp/TabTitle/FavIcon.js';
+import UpdateUpgradeSectionsHeight from '../Disp/BuildingsUpgrades/UpdateUpgradeSectionsHeight.js';
+import UpdateUpgrades from '../Disp/BuildingsUpgrades/Upgrades.js';
+import { ToggleTimerBar, ToggleTimerBarPos } from '../Config/SpecificToggles.js';
 
 /** This includes all options of CookieMonster and their relevant data */
 const settings = {

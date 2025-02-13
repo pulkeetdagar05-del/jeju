@@ -1,6 +1,6 @@
-import SellBuildingsForChoEgg from '../../Sim/SimulationEvents/SellBuildingForChoEgg';
-import FillCMDCache from '../FillCMDCache';
-import { CacheSellForChoEgg } from '../VariablesAndData';
+import SellBuildingsForChoEgg from '../../Sim/SimulationEvents/SellBuildingForChoEgg.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheSellForChoEgg } from '../VariablesAndData.js';
 
 /**
  * This functions caches the reward for selling the Chocolate egg

@@ -1,4 +1,4 @@
-import { CacheUpgrades } from '../../Cache/VariablesAndData';
+import { CacheUpgrades } from '../../Cache/VariablesAndData.js';
 import {
   ColourBackPre,
   ColourBlue,
@@ -9,7 +9,7 @@ import {
   ColourRed,
   ColoursOrdering,
   ColourYellow,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function adjusts some things in the upgrades section

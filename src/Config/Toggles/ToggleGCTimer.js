@@ -1,5 +1,5 @@
-import { CacheGoldenShimmersByID } from '../../Cache/VariablesAndData';
-import { GCTimers } from '../../Disp/VariablesAndData';
+import { CacheGoldenShimmersByID } from '../../Cache/VariablesAndData.js';
+import { GCTimers } from '../../Disp/VariablesAndData.js';
 
 /**
  * This function toggles GC Timers are visible

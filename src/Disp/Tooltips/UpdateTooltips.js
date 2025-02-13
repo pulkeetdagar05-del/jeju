@@ -1,16 +1,16 @@
-import CopyData from '../../Sim/SimulationData/CopyData';
-import { TooltipName, TooltipType } from '../VariablesAndData';
-import * as Create from './CreateTooltip';
-import Building from './TypesOfTooltips/Building';
-import GardenPlots from './TypesOfTooltips/GardenPlots';
-import StockMarket from './TypesOfTooltips/StockMarket';
-import Grimoire from './TypesOfTooltips/Grimoire';
-import HarvestAll from './TypesOfTooltips/HarvestAll';
-import PantheonGods from './TypesOfTooltips/PantheonGods';
-import SugarLump from './TypesOfTooltips/SugarLump';
-import Upgrade from './TypesOfTooltips/Upgrade';
-import Warnings from './TypesOfTooltips/Warnings';
-import WrinklerButton from './TypesOfTooltips/WrinklerButton';
+import CopyData from '../../Sim/SimulationData/CopyData.js';
+import { TooltipName, TooltipType } from '../VariablesAndData.js';
+import * as Create from './CreateTooltip.js';
+import Building from './TypesOfTooltips/Building.js';
+import GardenPlots from './TypesOfTooltips/GardenPlots.js';
+import StockMarket from './TypesOfTooltips/StockMarket.js';
+import Grimoire from './TypesOfTooltips/Grimoire.js';
+import HarvestAll from './TypesOfTooltips/HarvestAll.js';
+import PantheonGods from './TypesOfTooltips/PantheonGods.js';
+import SugarLump from './TypesOfTooltips/SugarLump.js';
+import Upgrade from './TypesOfTooltips/Upgrade.js';
+import Warnings from './TypesOfTooltips/Warnings.js';
+import WrinklerButton from './TypesOfTooltips/WrinklerButton.js';
 
 /**
  * This function updates the sections of the tooltips created by CookieMonster

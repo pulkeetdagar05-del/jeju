@@ -1,10 +1,10 @@
-import UpdateBuildings from '../BuildingsUpgrades/Buildings';
+import UpdateBuildings from '../BuildingsUpgrades/Buildings.js';
 import {
   ColourBackPre,
   ColourBorderPre,
   ColoursOrdering,
   ColourTextPre,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function changes/refreshes colours if the user has set new standard colours

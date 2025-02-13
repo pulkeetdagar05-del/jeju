@@ -7,7 +7,7 @@ import {
   ColourYellow,
   ColourPurple,
   TooltipType,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /** Creates various sections of tooltips */
 

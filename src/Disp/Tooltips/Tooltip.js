@@ -1,8 +1,8 @@
-import UpdateTooltips from './UpdateTooltips';
-import { SimpleTooltipElements, TooltipName, TooltipType } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
-import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding';
-import GetTimeColour from '../BeautifyAndFormatting/GetTimeColour';
-import Beautify from '../BeautifyAndFormatting/Beautify';
+import UpdateTooltips from './UpdateTooltips.js';
+import { SimpleTooltipElements, TooltipName, TooltipType } from '../VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding.js';
+import GetTimeColour from '../BeautifyAndFormatting/GetTimeColour.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
 
 /** All general functions related to creating and updating tooltips */
 
