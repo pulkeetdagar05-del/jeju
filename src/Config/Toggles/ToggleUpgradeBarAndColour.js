@@ -1,4 +1,4 @@
-import UpdateUpgrades from '../../Disp/BuildingsUpgrades/Upgrades';
+import UpdateUpgrades from '../../Disp/BuildingsUpgrades/Upgrades.js';
 
 /**
  * This function toggles the upgrade bar and the colours of upgrades

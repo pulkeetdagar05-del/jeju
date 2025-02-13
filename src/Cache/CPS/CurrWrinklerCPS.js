@@ -1,6 +1,6 @@
-import { SimObjects } from '../../Sim/VariablesAndData';
-import FillCMDCache from '../FillCMDCache';
-import { CacheCurrWrinklerCount, CacheCurrWrinklerCPSMult } from '../VariablesAndData';
+import { SimObjects } from '../../Sim/VariablesAndData.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheCurrWrinklerCount, CacheCurrWrinklerCPSMult } from '../VariablesAndData.js';
 
 /**
  * This functions caches the current Wrinkler CPS multiplier

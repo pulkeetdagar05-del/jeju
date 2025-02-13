@@ -1,5 +1,5 @@
-import GetCPSBuffMult from '../CPS/GetCPSBuffMult';
-import FillCMDCache from '../FillCMDCache';
+import GetCPSBuffMult from '../CPS/GetCPSBuffMult.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheChainFrenzyMaxReward,
   CacheChainFrenzyRequired,
@@ -17,7 +17,7 @@ import {
   CacheGoldenCookiesMult,
   CacheNoGoldSwitchCookiesPS,
   CacheWrathCookiesMult,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions calculates the max possible payout given a set of variables

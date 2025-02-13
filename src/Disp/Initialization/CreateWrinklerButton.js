@@ -1,6 +1,6 @@
-import { CacheWrinklersFattest } from '../../Cache/VariablesAndData';
-import PopAllNormalWrinklers from '../HelperFunctions/PopWrinklers';
-import { CreateTooltip } from '../Tooltips/Tooltip';
+import { CacheWrinklersFattest } from '../../Cache/VariablesAndData.js';
+import PopAllNormalWrinklers from '../HelperFunctions/PopWrinklers.js';
+import { CreateTooltip } from '../Tooltips/Tooltip.js';
 
 /**
  * This function creates two objects at the bottom of the left column that allowing popping of wrinklers

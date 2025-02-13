@@ -1,7 +1,7 @@
 import { before, describe, it } from 'mocha';
 import { expect } from 'chai';
 
-import GetTimeColour from '../../src/Disp/BeautifyAndFormatting/GetTimeColour';
+import GetTimeColour from '../../src/Disp/BeautifyAndFormatting/GetTimeColour.js';
 
 describe('GetTimeColour', () => {
   it('Format when time is less than 60', () => {

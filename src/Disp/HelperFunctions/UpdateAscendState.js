@@ -1,7 +1,7 @@
-import { ToggleTimerBar } from '../../Config/SpecificToggles';
-import ToggleBotBar from '../../Config/Toggles/ToggleBotBar';
+import { ToggleTimerBar } from '../../Config/SpecificToggles.js';
+import ToggleBotBar from '../../Config/Toggles/ToggleBotBar.js';
 
-import UpdateBackground from './UpdateBackground';
+import UpdateBackground from './UpdateBackground.js';
 
 /**
  * This function disables and shows the bars created by CookieMonster when the game is "ascending"

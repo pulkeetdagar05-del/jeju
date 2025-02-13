@@ -1,4 +1,4 @@
-import { SimAchievements } from '../VariablesAndData';
+import { SimAchievements } from '../VariablesAndData.js';
 
 /**
  * This functions creates functions similarly to Game.HasAchiev but checks Sim Data instead of Game Data

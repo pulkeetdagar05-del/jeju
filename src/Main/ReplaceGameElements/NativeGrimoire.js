@@ -1,13 +1,13 @@
-import FormatTime from '../../Disp/BeautifyAndFormatting/FormatTime';
-import CalculateGrimoireRefillTime from '../../Disp/HelperFunctions/CalculateGrimoireRefillTime';
+import FormatTime from '../../Disp/BeautifyAndFormatting/FormatTime.js';
+import CalculateGrimoireRefillTime from '../../Disp/HelperFunctions/CalculateGrimoireRefillTime.js';
 import {
   BackupGrimoireDraw,
   BackupGrimoireLaunch, // eslint-disable-line no-unused-vars
   BackupGrimoireLaunchMod,
   HasReplaceNativeGrimoireDraw,
   HasReplaceNativeGrimoireLaunch,
-} from '../VariablesAndData';
-import ReplaceTooltipGrimoire from './TooltipGrimoire';
+} from '../VariablesAndData.js';
+import ReplaceTooltipGrimoire from './TooltipGrimoire.js';
 
 /**
  * This function fixes replaces the .draw function of the Grimoire

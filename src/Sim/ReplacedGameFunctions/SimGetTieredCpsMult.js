@@ -1,5 +1,5 @@
-import { SimObjects } from '../VariablesAndData';
-import SimHas from './SimHas';
+import { SimObjects } from '../VariablesAndData.js';
+import SimHas from './SimHas.js';
 
 /**
  * This functions creates functions similarly to Game.GetTieredCpsMult but checks Sim Data instead of Game Data
@@ -32,9 +32,6 @@ export default function SimGetTieredCpsMult(me) {
   if (typeof me.tieredUpgrades.misfortune === 'object') {
     if (me.vanilla === 1 && SimHas(me.tieredUpgrades.misfortune.name)) {
       switch (Game.elderWrath) {
-        default:
-          mult *= 1;
-          break;
         case 1:
           mult *= 1.02;
           break;
@@ -43,6 +40,9 @@ export default function SimGetTieredCpsMult(me) {
           break;
         case 3:
           mult *= 1.06;
+          break;
+        default:
+          mult *= 1;
           break;
       }
     }

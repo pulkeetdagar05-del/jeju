@@ -1,7 +1,7 @@
 /** Functions to create the individual sections of the Statistics page */
 
-import * as GameData from '../../../Data/Gamedata';
-import { MaxChainCookieReward } from '../../../Cache/Stats/ChainCookies';
+import * as GameData from '../../../Data/Gamedata.js';
+import { MaxChainCookieReward } from '../../../Cache/Stats/ChainCookies.js';
 import {
   CacheAvgCPSWithChoEgg,
   CacheCentEgg,
@@ -35,20 +35,20 @@ import {
   CacheSeaSpec,
   CacheWrathCookiesMult,
   CacheWrinklersTotal,
-} from '../../../Cache/VariablesAndData';
-import ResetBonus from '../../../Sim/SimulationEvents/ResetAscension';
-import CalculateLuckyLevels from '../../HelperFunctions/CalculateLuckyLevels';
-import GetCPS from '../../HelperFunctions/GetCPS';
-import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank';
-import { ColourGreen, ColourRed, ColourTextPre } from '../../VariablesAndData';
+} from '../../../Cache/VariablesAndData.js';
+import ResetBonus from '../../../Sim/SimulationEvents/ResetAscension.js';
+import CalculateLuckyLevels from '../../HelperFunctions/CalculateLuckyLevels.js';
+import GetCPS from '../../HelperFunctions/GetCPS.js';
+import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank.js';
+import { ColourGreen, ColourRed, ColourTextPre } from '../../VariablesAndData.js';
 import {
   StatsListing,
   StatsHeader,
   StatsMissDisp,
   StatsMissDispListing,
-} from './CreateDOMElements';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import FormatTime from '../../BeautifyAndFormatting/FormatTime';
+} from './CreateDOMElements.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../../BeautifyAndFormatting/FormatTime.js';
 
 /**
  * This function creates the "Lucky" section of the stats page

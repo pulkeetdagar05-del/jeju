@@ -1,7 +1,7 @@
-import GetWrinkConfigBank from '../../Disp/HelperFunctions/GetWrinkConfigBank';
-import { ColourGray } from '../../Disp/VariablesAndData';
-import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding';
-import FillCMDCache from '../FillCMDCache';
+import GetWrinkConfigBank from '../../Disp/HelperFunctions/GetWrinkConfigBank.js';
+import { ColourGray } from '../../Disp/VariablesAndData.js';
+import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheMinPP,
   CacheMinPPBulk,
@@ -9,8 +9,8 @@ import {
   CacheObjects10,
   CacheObjects100,
   CachePPArray,
-} from '../VariablesAndData';
-import ColourOfPP from './ColourOfPP';
+} from '../VariablesAndData.js';
+import ColourOfPP from './ColourOfPP.js';
 
 /**
  * This functions caches the buildings of bulk-buy mode when PP is compared against optimal single-purchase building

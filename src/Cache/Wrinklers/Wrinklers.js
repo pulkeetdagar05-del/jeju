@@ -1,12 +1,12 @@
 /** Caches data related to Wrinklers */
 
-import { SimObjects } from '../../Sim/VariablesAndData';
-import FillCMDCache from '../FillCMDCache';
+import { SimObjects } from '../../Sim/VariablesAndData.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheWrinklersFattest,
   CacheWrinklersNormal,
   CacheWrinklersTotal,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions caches data related to Wrinklers

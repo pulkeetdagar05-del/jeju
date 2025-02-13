@@ -3,7 +3,7 @@ import {
   CacheCurrWrinklerCount,
   CacheCurrWrinklerCPSMult,
   CacheWrinklersFattest,
-} from '../../Cache/VariablesAndData';
+} from '../../Cache/VariablesAndData.js';
 
 /**
  * This function returns the cps as either current or average CPS depending on CM.Options.CPSMode

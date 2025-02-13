@@ -1,4 +1,4 @@
-import { DispCSS } from '../VariablesAndData';
+import { DispCSS } from '../VariablesAndData.js';
 
 /**
  * This function creates a CSS style that stores certain standard CSS classes used by CookieMonster

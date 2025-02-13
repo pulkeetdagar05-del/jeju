@@ -1,4 +1,4 @@
-import { saveAndLoadingFunctions } from '@cookiemonsterteam/cookiemonsterframework/src/index';
+import { saveAndLoadingFunctions } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
 
 /** Functions related to toggling or changing an individual setting */
 

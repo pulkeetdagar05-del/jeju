@@ -1,7 +1,7 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { CacheSeasonPopShimmer } from '../../Cache/VariablesAndData'; // eslint-disable-line no-unused-vars
-import { LastSeasonPopupState } from '../VariablesAndData';
-import { resetChanceTotalDeer } from './Probability';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import { CacheSeasonPopShimmer } from '../../Cache/VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import { LastSeasonPopupState } from '../VariablesAndData.js';
+import { resetChanceTotalDeer } from './Probability.js';
 
 /**
  * This function checks if there is reindeer that has spawned

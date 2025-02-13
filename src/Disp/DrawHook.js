@@ -1,12 +1,12 @@
-import ToggleWrinklerButtons from '../Config/Toggles/ToggleWrinklerButtons';
-import UpdateBuildings from './BuildingsUpgrades/Buildings';
-import UpdateUpgradeSectionsHeight from './BuildingsUpgrades/UpdateUpgradeSectionsHeight';
-import UpdateUpgrades from './BuildingsUpgrades/Upgrades';
-import { UpdateBotBar } from './InfoBars/BottomBar';
-import { UpdateTimerBar } from './InfoBars/TimerBar';
-import RefreshMenu from './MenuSections/Refreshmenu';
-import UpdateTooltips from './Tooltips/UpdateTooltips';
-import { CheckWrinklerTooltip, UpdateWrinklerTooltip } from './Tooltips/WrinklerTooltips';
+import ToggleWrinklerButtons from '../Config/Toggles/ToggleWrinklerButtons.js';
+import UpdateBuildings from './BuildingsUpgrades/Buildings.js';
+import UpdateUpgradeSectionsHeight from './BuildingsUpgrades/UpdateUpgradeSectionsHeight.js';
+import UpdateUpgrades from './BuildingsUpgrades/Upgrades.js';
+import { UpdateBotBar } from './InfoBars/BottomBar.js';
+import { UpdateTimerBar } from './InfoBars/TimerBar.js';
+import RefreshMenu from './MenuSections/Refreshmenu.js';
+import UpdateTooltips from './Tooltips/UpdateTooltips.js';
+import { CheckWrinklerTooltip, UpdateWrinklerTooltip } from './Tooltips/WrinklerTooltips.js';
 
 /**
  * This function handles all custom drawing for the Game.Draw() function.

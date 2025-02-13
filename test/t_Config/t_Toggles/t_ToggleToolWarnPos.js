@@ -1,8 +1,8 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l } from '../../GlobalsForTesting';
+import { l } from '../../GlobalsForTesting.js';
 
-import ToggleToolWarnPos from '../../../src/Config/Toggles/ToggleToolWarnPos';
+import ToggleToolWarnPos from '../../../src/Config/Toggles/ToggleToolWarnPos.js';
 
 describe('ToggleToolWarnPos', () => {
   global.l = l;

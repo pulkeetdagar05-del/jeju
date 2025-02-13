@@ -1,26 +1,26 @@
-import ColourOfPP from '../../../Cache/PP/ColourOfPP';
+import ColourOfPP from '../../../Cache/PP/ColourOfPP.js';
 import {
   CacheObjects1,
   CacheObjects10,
   CacheObjects100,
   CacheObjectsNextAchievement,
-} from '../../../Cache/VariablesAndData';
+} from '../../../Cache/VariablesAndData.js';
 
-import BuyBuildingsBonusIncome from '../../../Sim/SimulationEvents/BuyBuildingBonusIncome';
-import { SimObjects } from '../../../Sim/VariablesAndData';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import FormatTime from '../../BeautifyAndFormatting/FormatTime';
-import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour';
-import GetCPS from '../../HelperFunctions/GetCPS';
-import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank';
+import BuyBuildingsBonusIncome from '../../../Sim/SimulationEvents/BuyBuildingBonusIncome.js';
+import { SimObjects } from '../../../Sim/VariablesAndData.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../../BeautifyAndFormatting/FormatTime.js';
+import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour.js';
+import GetCPS from '../../HelperFunctions/GetCPS.js';
+import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank.js';
 import {
   ColourTextPre,
   LastTargetTooltipBuilding,
   TooltipBonusIncome,
   TooltipName,
   TooltipPrice,
-} from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+} from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the Building tooltips

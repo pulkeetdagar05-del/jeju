@@ -1,8 +1,8 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l, Game } from '../../GlobalsForTesting';
+import { l, Game } from '../../GlobalsForTesting.js';
 
-import ToggleUpgradeBarAndColour from '../../../src/Config/Toggles/ToggleUpgradeBarAndColour';
+import ToggleUpgradeBarAndColour from '../../../src/Config/Toggles/ToggleUpgradeBarAndColour.js';
 
 describe('ToggleUpgradeBarAndColour', () => {
   global.l = l;

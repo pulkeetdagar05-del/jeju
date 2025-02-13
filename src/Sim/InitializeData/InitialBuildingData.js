@@ -1,8 +1,8 @@
-import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult';
-import SimEff from '../ReplacedGameFunctions/SimEff';
-import SimGetTieredCpsMult from '../ReplacedGameFunctions/SimGetTieredCpsMult';
-import SimHas from '../ReplacedGameFunctions/SimHas';
-import { SimObjects } from '../VariablesAndData';
+import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult.js';
+import SimEff from '../ReplacedGameFunctions/SimEff.js';
+import SimGetTieredCpsMult from '../ReplacedGameFunctions/SimGetTieredCpsMult.js';
+import SimHas from '../ReplacedGameFunctions/SimHas.js';
+import { SimObjects } from '../VariablesAndData.js';
 
 /**
  * This function constructs an object with the static properties of a building,

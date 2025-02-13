@@ -1,5 +1,5 @@
-import { CreateTooltip } from '../../Disp/Tooltips/Tooltip';
-import { TooltipGrimoireBackup } from '../VariablesAndData';
+import { CreateTooltip } from '../../Disp/Tooltips/Tooltip.js';
+import { TooltipGrimoireBackup } from '../VariablesAndData.js';
 
 /**
  * This function replaces the original .onmouseover functions of the Grimoire minigame

@@ -1,9 +1,9 @@
 /** Main function to create the sections of Cookie Monster on the Statistics page */
 
-import { AddMissingUpgrades } from './CreateMissingUpgrades';
-import * as CreateSections from './CreateStatsSections';
-import * as CreateElements from './CreateDOMElements';
-import * as GameData from '../../../Data/Gamedata';
+import { AddMissingUpgrades } from './CreateMissingUpgrades.js';
+import * as CreateSections from './CreateStatsSections.js';
+import * as CreateElements from './CreateDOMElements.js';
+import * as GameData from '../../../Data/Gamedata.js';
 
 import {
   CacheAverageClicks,
@@ -12,12 +12,12 @@ import {
   CacheWrinklersFattest,
   CacheWrinklersNormal,
   CacheWrinklersTotal,
-} from '../../../Cache/VariablesAndData';
-import PopAllNormalWrinklers from '../../HelperFunctions/PopWrinklers';
-import { ClickTimes, CookieTimes } from '../../VariablesAndData';
-import GetCPS from '../../HelperFunctions/GetCPS';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import AddMissingAchievements from './CreateMissingAchievements';
+} from '../../../Cache/VariablesAndData.js';
+import PopAllNormalWrinklers from '../../HelperFunctions/PopWrinklers.js';
+import { ClickTimes, CookieTimes } from '../../VariablesAndData.js';
+import GetCPS from '../../HelperFunctions/GetCPS.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import AddMissingAchievements from './CreateMissingAchievements.js';
 
 /**
  * This function adds stats created by CookieMonster to the stats page

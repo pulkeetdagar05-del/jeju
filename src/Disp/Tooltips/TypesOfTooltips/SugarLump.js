@@ -1,6 +1,6 @@
-import GetLumpColour from '../../HelperFunctions/GetLumpColour';
-import { ColourTextPre } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import GetLumpColour from '../../HelperFunctions/GetLumpColour.js';
+import { ColourTextPre } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 /**
  * This function adds extra info to the Sugar Lump tooltip
  * It adds to the additional information to l('CMTooltipArea')

@@ -1,7 +1,7 @@
 import { before, describe, it } from 'mocha';
 import { assert } from 'chai';
 
-import FormatTime from '../../src/Disp/BeautifyAndFormatting/FormatTime';
+import FormatTime from '../../src/Disp/BeautifyAndFormatting/FormatTime.js';
 
 describe('FormatTime', () => {
   it('Format when time is Infinity', () => {

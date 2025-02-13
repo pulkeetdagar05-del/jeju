@@ -1,9 +1,14 @@
-import { CacheRealCookiesEarned } from '../../Cache/VariablesAndData';
-import CalculateGains from '../Calculations/CalculateGains';
-import CheckOtherAchiev from '../Calculations/CheckOtherAchiev';
-import CopyData from '../SimulationData/CopyData';
-import SimWin from '../SimulationData/SimWin';
-import { SimAchievementsOwned, SimCookiesPs, SimPrestige, SimUpgrades } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
+import { CacheRealCookiesEarned } from '../../Cache/VariablesAndData.js';
+import CalculateGains from '../Calculations/CalculateGains.js';
+import CheckOtherAchiev from '../Calculations/CheckOtherAchiev.js';
+import CopyData from '../SimulationData/CopyData.js';
+import SimWin from '../SimulationData/SimWin.js';
+import {
+  SimAchievementsOwned,
+  SimCookiesPs,
+  SimPrestige, // eslint-disable-line no-unused-vars
+  SimUpgrades,
+} from '../VariablesAndData.js';
 
 /**
  * This function calculates the cookies per click difference betwene current and after a ascension

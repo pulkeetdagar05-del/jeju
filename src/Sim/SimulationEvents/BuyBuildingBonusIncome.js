@@ -1,8 +1,8 @@
-import CalculateGains from '../Calculations/CalculateGains';
-import CheckOtherAchiev from '../Calculations/CheckOtherAchiev';
-import CopyData from '../SimulationData/CopyData';
-import SimWin from '../SimulationData/SimWin';
-import { SimAchievementsOwned, SimCookiesPs, SimObjects } from '../VariablesAndData';
+import CalculateGains from '../Calculations/CalculateGains.js';
+import CheckOtherAchiev from '../Calculations/CheckOtherAchiev.js';
+import CopyData from '../SimulationData/CopyData.js';
+import SimWin from '../SimulationData/SimWin.js';
+import { SimAchievementsOwned, SimCookiesPs, SimObjects } from '../VariablesAndData.js';
 
 /**
  * This function calculates the bonus income of buying a building

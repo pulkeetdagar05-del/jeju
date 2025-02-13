@@ -1,7 +1,7 @@
 /** General functions to format or beautify strings */
 
-import { metric, shortScale, shortScaleAbbreviated } from '../../Data/Scales';
-import { BackupFunctions } from '../../Main/VariablesAndData';
+import { metric, shortScale, shortScaleAbbreviated } from '../../Data/Scales.js';
+import { BackupFunctions } from '../../Main/VariablesAndData.js';
 
 /**
  * This function returns formats number based on the Scale setting

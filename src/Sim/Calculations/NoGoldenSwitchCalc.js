@@ -1,6 +1,6 @@
-import CopyData from '../SimulationData/CopyData';
-import { SimCookiesPs, SimUpgrades } from '../VariablesAndData';
-import CalculateGains from './CalculateGains';
+import CopyData from '../SimulationData/CopyData.js';
+import { SimCookiesPs, SimUpgrades } from '../VariablesAndData.js';
+import CalculateGains from './CalculateGains.js';
 
 /**
  * This function calculates CPS without the Golden Switch

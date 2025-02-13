@@ -1,9 +1,9 @@
 /** Functions related to updating the tab in the browser's tab-bar */
 
-import { CacheSeasonPopShimmer, CacheSpawnedGoldenShimmer } from '../../Cache/VariablesAndData';
+import { CacheSeasonPopShimmer, CacheSpawnedGoldenShimmer } from '../../Cache/VariablesAndData.js';
 
-import { LastSeasonPopupState, LastTickerFortuneState } from '../../Main/VariablesAndData';
-import { Title } from '../VariablesAndData';
+import { LastSeasonPopupState, LastTickerFortuneState } from '../../Main/VariablesAndData.js';
+import { Title } from '../VariablesAndData.js';
 
 /**
  * This function updates the tab title

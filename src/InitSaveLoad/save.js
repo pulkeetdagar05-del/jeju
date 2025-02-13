@@ -1,4 +1,4 @@
-import { VersionMajor, VersionMinor } from '../Data/Moddata';
+import { VersionMajor, VersionMinor } from '../Data/Moddata.js';
 
 /**
  * This creates a save function to the CM object. Per Game code/comments:

@@ -1,5 +1,5 @@
-import { SimGod1, SimGod2, SimGod3, SimObjects } from '../VariablesAndData';
-import SimHasAura from './SimHasAura';
+import { SimGod1, SimGod2, SimGod3, SimObjects } from '../VariablesAndData.js';
+import SimHasAura from './SimHasAura.js';
 
 /**
  * This function checks for the current God level in the sim data

@@ -1,7 +1,7 @@
-import { CacheDragonAura, CacheDragonAura2 } from '../../Cache/VariablesAndData';
-import CalculateGains from '../Calculations/CalculateGains';
-import CheckOtherAchiev from '../Calculations/CheckOtherAchiev';
-import CopyData from '../SimulationData/CopyData';
+import { CacheDragonAura, CacheDragonAura2 } from '../../Cache/VariablesAndData.js';
+import CalculateGains from '../Calculations/CalculateGains.js';
+import CheckOtherAchiev from '../Calculations/CheckOtherAchiev.js';
+import CopyData from '../SimulationData/CopyData.js';
 import {
   SimAchievementsOwned,
   SimBuildingsOwned, // eslint-disable-line no-unused-vars
@@ -9,7 +9,7 @@ import {
   SimDragonAura,
   SimDragonAura2,
   SimObjects,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions calculates the cps and cost of changing a Dragon Aura

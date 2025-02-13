@@ -1,5 +1,5 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { LastGardenNextStep } from '../VariablesAndData';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import { LastGardenNextStep } from '../VariablesAndData.js';
 
 /**
  * This function checks if a garden tick has happened

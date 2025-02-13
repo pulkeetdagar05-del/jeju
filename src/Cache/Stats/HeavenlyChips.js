@@ -1,10 +1,10 @@
-import FillCMDCache from '../FillCMDCache';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheHCPerSecond,
   CacheLastHeavenlyCheck,
   CacheLastHeavenlyChips,
   HeavenlyChipsDiff,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions caches the heavenly chips per second in the last five seconds

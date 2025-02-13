@@ -1,4 +1,4 @@
-import SimAuraMult from './SimAuraMult';
+import SimAuraMult from './SimAuraMult.js';
 
 /**
  * This functions creates functions similarly to Game.getSellMultiplier but checks Sim Data instead of Game Data

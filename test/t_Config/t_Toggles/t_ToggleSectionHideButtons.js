@@ -1,8 +1,8 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l } from '../../GlobalsForTesting';
+import { l } from '../../GlobalsForTesting.js';
 
-import ToggleSectionHideButtons from '../../../src/Config/Toggles/ToggleSectionHideButtons';
+import ToggleSectionHideButtons from '../../../src/Config/Toggles/ToggleSectionHideButtons.js';
 
 describe('ToggleSectionHideButtons', () => {
   global.l = l;

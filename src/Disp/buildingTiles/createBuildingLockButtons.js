@@ -1,4 +1,4 @@
-import toggleBuildingLock from './toggleBuildingLock';
+import toggleBuildingLock from './toggleBuildingLock.js';
 
 /**
  * This function adds a lock button to the "building view" in the middle section

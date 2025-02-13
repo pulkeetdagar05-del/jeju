@@ -1,6 +1,6 @@
-import SimHas from '../ReplacedGameFunctions/SimHas';
-import SimHasGod from '../ReplacedGameFunctions/SimHasGod';
-import { SimObjects } from '../VariablesAndData';
+import SimHas from '../ReplacedGameFunctions/SimHas.js';
+import SimHasGod from '../ReplacedGameFunctions/SimHasGod.js';
+import { SimObjects } from '../VariablesAndData.js';
 
 /**
  * This function constructs an object with the static properties of an upgrade
