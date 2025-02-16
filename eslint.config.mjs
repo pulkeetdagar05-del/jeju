@@ -33,11 +33,9 @@ export default [
         utf8_to_b64: 'readonly',
         BeautifyAll: 'readonly',
       },
-
       ecmaVersion: 'latest',
       sourceType: 'module',
     },
-
     rules: {
       'import/extensions': ['error', 'ignorePackages'],
       'import/no-mutable-exports': 'off',
