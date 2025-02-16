@@ -1,8 +1,8 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l } from '../../GlobalsForTesting';
+import { l } from '../../GlobalsForTesting.js';
 
-import ToggleUpgradeBarFixedPos from '../../../src/Config/Toggles/ToggleUpgradeBarFixedPos';
+import ToggleUpgradeBarFixedPos from '../../../src/Config/Toggles/ToggleUpgradeBarFixedPos.js';
 
 describe('ToggleUpgradeBarFixedPos', () => {
   global.l = l;

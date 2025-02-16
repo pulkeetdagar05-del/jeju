@@ -1,10 +1,10 @@
-import { SimObjects } from '../../Sim/VariablesAndData';
-import Beautify from '../BeautifyAndFormatting/Beautify';
+import { SimObjects } from '../../Sim/VariablesAndData.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
 import {
   TooltipWrinkler,
   TooltipWrinklerArea,
   TooltipWrinklerBeingShown,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function checks and create a tooltip for the wrinklers

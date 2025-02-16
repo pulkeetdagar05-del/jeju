@@ -1,7 +1,7 @@
-import { CacheGods } from '../../../Cache/VariablesAndData';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import { TooltipName, TooltipType } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import { CacheGods } from '../../../Cache/VariablesAndData.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import { TooltipName, TooltipType } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the Pantheon Gods tooltip

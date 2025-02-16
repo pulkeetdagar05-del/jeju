@@ -1,5 +1,5 @@
-import { CreateTooltip } from '../../Disp/Tooltips/Tooltip';
-import { TooltipUpgradeBackup } from '../VariablesAndData';
+import { CreateTooltip } from '../../Disp/Tooltips/Tooltip.js';
+import { TooltipUpgradeBackup } from '../VariablesAndData.js';
 
 /**
  * This function replaces the original .onmouseover functions of upgrades so that it calls CM.Disp.Tooltip()

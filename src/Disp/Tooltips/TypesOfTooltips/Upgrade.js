@@ -1,18 +1,18 @@
-import { CacheLastChoEgg, CacheUpgrades } from '../../../Cache/VariablesAndData';
+import { CacheLastChoEgg, CacheUpgrades } from '../../../Cache/VariablesAndData.js';
 
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import FormatTime from '../../BeautifyAndFormatting/FormatTime';
-import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour';
-import GetCPS from '../../HelperFunctions/GetCPS';
-import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../../BeautifyAndFormatting/FormatTime.js';
+import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour.js';
+import GetCPS from '../../HelperFunctions/GetCPS.js';
+import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank.js';
 import {
   ColourTextPre,
   TooltipBonusIncome,
   TooltipBonusMouse,
   TooltipName,
   TooltipPrice,
-} from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+} from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the Upgrade tooltips

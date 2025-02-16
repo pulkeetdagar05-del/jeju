@@ -1,10 +1,10 @@
 /** Functions related to the Dragon */
 
-import Beautify from '../../Disp/BeautifyAndFormatting/Beautify';
-import CopyData from '../../Sim/SimulationData/CopyData';
-import { SimDoSims, SimObjects } from '../../Sim/VariablesAndData';
-import FillCMDCache from '../FillCMDCache';
-import { CacheCostDragonUpgrade, CacheLastDragonLevel } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
+import Beautify from '../../Disp/BeautifyAndFormatting/Beautify.js';
+import CopyData from '../../Sim/SimulationData/CopyData.js';
+import { SimDoSims, SimObjects } from '../../Sim/VariablesAndData.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheCostDragonUpgrade, CacheLastDragonLevel } from '../VariablesAndData.js'; // eslint-disable-line no-unused-vars
 
 /**
  * This functions caches the current cost of upgrading the dragon level so it can be displayed in the tooltip

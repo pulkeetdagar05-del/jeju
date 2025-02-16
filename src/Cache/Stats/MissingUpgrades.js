@@ -1,9 +1,9 @@
-import { crateMissing } from '../../Disp/MenuSections/Statistics/CreateMissingUpgrades';
+import { crateMissing } from '../../Disp/MenuSections/Statistics/CreateMissingUpgrades.js';
 import {
   CacheMissingUpgrades, // eslint-disable-line no-unused-vars
   CacheMissingUpgradesCookies, // eslint-disable-line no-unused-vars
   CacheMissingUpgradesPrestige, // eslint-disable-line no-unused-vars
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions caches variables related to missing upgrades
@@ -35,12 +35,10 @@ export default function CacheAllMissingUpgrades() {
       let str = '';
 
       str += crateMissing(me);
-      /* eslint-disable no-unused-vars */
       if (me.pool === 'prestige') CacheMissingUpgradesPrestige += str;
       else if (me.pool === 'cookie') CacheMissingUpgradesCookies += str;
       else if (me.pool !== 'toggle' && me.pool !== 'unused' && me.pool !== 'debug')
         CacheMissingUpgrades += str;
-      /* eslint-enable no-unused-vars */
     }
   });
 }

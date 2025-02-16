@@ -1,5 +1,5 @@
-import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index';
-import { LastTickerFortuneState } from '../VariablesAndData';
+import { notificationsFunctions as nF } from '@cookiemonsterteam/cookiemonsterframework/src/index.js';
+import { LastTickerFortuneState } from '../VariablesAndData.js';
 
 /**
  * This function checks if there is a fortune cookie on the ticker

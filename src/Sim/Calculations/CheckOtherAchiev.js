@@ -1,8 +1,8 @@
-import { ChristCookies, HalloCookies } from '../../Data/Gamedata';
-import SimHas from '../ReplacedGameFunctions/SimHas';
-import SimHasAchiev from '../ReplacedGameFunctions/SimHasAchiev';
-import SimWin from '../SimulationData/SimWin';
-import { SimObjects, SimUpgradesOwned } from '../VariablesAndData';
+import { ChristCookies, HalloCookies } from '../../Data/Gamedata.js';
+import SimHas from '../ReplacedGameFunctions/SimHas.js';
+import SimHasAchiev from '../ReplacedGameFunctions/SimHasAchiev.js';
+import SimWin from '../SimulationData/SimWin.js';
+import { SimObjects, SimUpgradesOwned } from '../VariablesAndData.js';
 
 /**
  * This function calculates if any special achievements have been obtained

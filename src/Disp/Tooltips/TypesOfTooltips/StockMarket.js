@@ -1,4 +1,4 @@
-import Beautify from '../../BeautifyAndFormatting/Beautify';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
 import {
   TooltipName,
   ColourTextPre,
@@ -8,9 +8,9 @@ import {
   ColourRed,
   ColourPurple,
   ColourGray,
-} from '../../VariablesAndData';
-import CalculateStockNextExpectedValue from '../../HelperFunctions/CalculateStockNextExpectedValue';
-import * as Create from '../CreateTooltip';
+} from '../../VariablesAndData.js';
+import CalculateStockNextExpectedValue from '../../HelperFunctions/CalculateStockNextExpectedValue.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the stock market
@@ -63,7 +63,9 @@ export default function StockMarket() {
       Game.Objects.Bank.level,
       Game.auraMult('Supreme Intellect'),
     );
-    expectedNextValue.textContent = `$${Beautify(expectedValue) + (expectedValue < stock.val ? '\u25bc' : '\u25b2')}`;
+    expectedNextValue.textContent = `$${
+      Beautify(expectedValue) + (expectedValue < stock.val ? '\u25bc' : '\u25b2')
+    }`;
     const expectedNextValueColour = expectedValue < stock.val ? ColourRed : ColourGreen;
     expectedNextValue.className = ColourTextPre + expectedNextValueColour;
 

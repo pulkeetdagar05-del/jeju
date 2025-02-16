@@ -1,6 +1,6 @@
-import GetWrinkConfigBank from '../../Disp/HelperFunctions/GetWrinkConfigBank';
-import { CacheUpgrades } from '../VariablesAndData';
-import ColourOfPP from './ColourOfPP';
+import GetWrinkConfigBank from '../../Disp/HelperFunctions/GetWrinkConfigBank.js';
+import { CacheUpgrades } from '../VariablesAndData.js';
+import ColourOfPP from './ColourOfPP.js';
 
 /**
  * This functions caches the PP of each building it saves all date in CM.Cache.Upgrades

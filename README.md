@@ -68,11 +68,11 @@ All suggestions are welcome, even the smallest ones.
 
 Cookie Monster exposes some of the data it creates to the global scope. This data can be found in the `CookieMonsterData` object after loading Cookie Monster.
 
-Currently we exposes relevant data for buildings and upgrades (PP, colour and bonus income). If you would like us to add any aditional data, please feel free to open an issue or create a PR doing so!
+Currently we expose relevant data for buildings and upgrades (PP, colour and bonus income). If you would like us to add any additional data, please feel free to open an issue or create a PR doing so!
 
 ## Contributing
 
-To contribute you can fork and clone the repository and run `npm install`. Note that you will need to authenticate to the GitHub Package Registery (see [this documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages)). After creating a Public Access Token you should export this variable to $GITHUB_REGISTERY_PAT as defined in `.npmrc`.
+To contribute you can fork and clone the repository and run `npm install`. Note that you will need to authenticate to the GitHub Package Registry (see [this documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages)). After creating a Public Access Token you should export this variable to $GITHUB_REGISTRY_PAT as defined in `.npmrc`.
 
 Please also remember to run `npm run build-dev` after saving all your changes to build the final `CookieMonsterDev.js` file.
 

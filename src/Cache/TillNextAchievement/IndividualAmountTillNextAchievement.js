@@ -1,5 +1,5 @@
-import BuyBuildingsBonusIncome from '../../Sim/SimulationEvents/BuyBuildingBonusIncome';
-import { SimAchievementsOwned } from '../../Sim/VariablesAndData';
+import BuyBuildingsBonusIncome from '../../Sim/SimulationEvents/BuyBuildingBonusIncome.js';
+import { SimAchievementsOwned } from '../../Sim/VariablesAndData.js';
 
 export default function IndividualAmountTillNextAchievement(building) {
   const AchievementsAtStart = Game.AchievementsOwned;

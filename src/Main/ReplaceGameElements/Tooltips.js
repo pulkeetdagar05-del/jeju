@@ -1,9 +1,9 @@
 /** Functions related to replacing tooltips */
 
-import { CreateTooltip } from '../../Disp/Tooltips/Tooltip';
-import { LoadMinigames, TooltipBuildBackup, TooltipLumpBackup } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
-import ReplaceNativeGrimoire from './NativeGrimoire';
-import ReplaceTooltipGrimoire from './TooltipGrimoire';
+import { CreateTooltip } from '../../Disp/Tooltips/Tooltip.js';
+import { LoadMinigames, TooltipBuildBackup, TooltipLumpBackup } from '../VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import ReplaceNativeGrimoire from './NativeGrimoire.js';
+import ReplaceTooltipGrimoire from './TooltipGrimoire.js';
 
 /**
  * This function replaces the original .onmouseover functions of buildings

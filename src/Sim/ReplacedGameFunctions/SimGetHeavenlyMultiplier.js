@@ -1,6 +1,6 @@
-import SimAuraMult from './SimAuraMult';
-import SimHas from './SimHas';
-import SimHasGod from './SimHasGod';
+import SimAuraMult from './SimAuraMult.js';
+import SimHas from './SimHas.js';
+import SimHasGod from './SimHasGod.js';
 
 /**
  * This functions creates functions similarly to Game.GetHeavenlyMultiplier but checks Sim Data instead of Game Data

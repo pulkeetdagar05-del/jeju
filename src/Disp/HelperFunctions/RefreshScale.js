@@ -1,6 +1,6 @@
-import UpdateBuildings from '../BuildingsUpgrades/Buildings';
-import UpdateUpgrades from '../BuildingsUpgrades/Upgrades';
-import { UpdateBotBar } from '../InfoBars/BottomBar';
+import UpdateBuildings from '../BuildingsUpgrades/Buildings.js';
+import UpdateUpgrades from '../BuildingsUpgrades/Upgrades.js';
+import { UpdateBotBar } from '../InfoBars/BottomBar.js';
 
 /**
  * This function refreshes all numbers after a change in scale-setting

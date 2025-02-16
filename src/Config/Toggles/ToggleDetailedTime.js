@@ -1,5 +1,5 @@
-import { CMSayTime } from '../../Disp/VariablesAndData';
-import { BackupFunctions } from '../../Main/VariablesAndData';
+import { CMSayTime } from '../../Disp/VariablesAndData.js';
+import { BackupFunctions } from '../../Main/VariablesAndData.js';
 
 /**
  * This function changes some of the time-displays in the game to be more detailed

@@ -1,11 +1,11 @@
-import CalculateGains from '../Calculations/CalculateGains';
-import CheckOtherAchiev from '../Calculations/CheckOtherAchiev';
-import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult';
-import SimEff from '../ReplacedGameFunctions/SimEff';
-import SimHas from '../ReplacedGameFunctions/SimHas';
-import SimHasGod from '../ReplacedGameFunctions/SimHasGod';
-import CopyData from '../SimulationData/CopyData';
-import SimWin from '../SimulationData/SimWin';
+import CalculateGains from '../Calculations/CalculateGains.js';
+import CheckOtherAchiev from '../Calculations/CheckOtherAchiev.js';
+import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult.js';
+import SimEff from '../ReplacedGameFunctions/SimEff.js';
+import SimHas from '../ReplacedGameFunctions/SimHas.js';
+import SimHasGod from '../ReplacedGameFunctions/SimHasGod.js';
+import CopyData from '../SimulationData/CopyData.js';
+import SimWin from '../SimulationData/SimWin.js';
 import {
   SimAchievementsOwned,
   SimCookiesPs,
@@ -13,7 +13,7 @@ import {
   SimPledges,
   SimUpgrades,
   SimUpgradesOwned, // eslint-disable-line no-unused-vars
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function calculates the cookies per click

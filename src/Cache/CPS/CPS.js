@@ -1,5 +1,5 @@
-import { ClickTimes, CookieTimes } from '../../Disp/VariablesAndData';
-import FillCMDCache from '../FillCMDCache';
+import { ClickTimes, CookieTimes } from '../../Disp/VariablesAndData.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheAverageClicks,
   CacheAverageCPS,
@@ -23,7 +23,7 @@ import {
   CookiesDiff,
   WrinkDiff,
   WrinkFattestDiff,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions caches two variables related average CPS and Clicks
@@ -89,7 +89,6 @@ export default function CacheAvgCPS() {
         CacheAverageGainBank + CacheAverageGainWrink + (choEgg ? CacheAverageGainChoEgg : 0);
     } else CacheAvgCPSWithChoEgg = CacheAverageCPS;
 
-    // eslint-disable-next-line no-unused-vars
     CacheAverageClicks = ClicksDiff.calcAverage(
       ClickTimes[Game.mods.cookieMonsterFramework.saveData.cookieMonsterMod.settings.AvgClicksHist],
     );

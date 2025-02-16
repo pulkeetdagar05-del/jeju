@@ -1,10 +1,10 @@
 /** Functions used to create static objects of Buildings, Upgrades and Achievements */
 
-import CopyData from '../SimulationData/CopyData';
-import { SimAchievements, SimObjects, SimUpgrades } from '../VariablesAndData';
-import InitAchievement from './InitAchievement';
-import InitialBuildingData from './InitialBuildingData';
-import InitUpgrade from './InitUpgrade';
+import CopyData from '../SimulationData/CopyData.js';
+import { SimAchievements, SimObjects, SimUpgrades } from '../VariablesAndData.js';
+import InitAchievement from './InitAchievement.js';
+import InitialBuildingData from './InitialBuildingData.js';
+import InitUpgrade from './InitUpgrade.js';
 
 /**
  * This function creates static objects for Buildings, Upgrades and Achievements

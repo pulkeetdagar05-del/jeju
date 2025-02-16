@@ -1,7 +1,13 @@
-import CalculateGains from '../Calculations/CalculateGains';
-import CheckOtherAchiev from '../Calculations/CheckOtherAchiev';
-import CopyData from '../SimulationData/CopyData';
-import { SimAchievementsOwned, SimCookiesPs, SimGod1, SimGod2, SimGod3 } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
+import CalculateGains from '../Calculations/CalculateGains.js';
+import CheckOtherAchiev from '../Calculations/CheckOtherAchiev.js';
+import CopyData from '../SimulationData/CopyData.js';
+import {
+  SimAchievementsOwned,
+  SimCookiesPs,
+  SimGod1, // eslint-disable-line no-unused-vars
+  SimGod2, // eslint-disable-line no-unused-vars
+  SimGod3, // eslint-disable-line no-unused-vars
+} from '../VariablesAndData.js';
 
 /**
  * This functions calculates the cps and cost of changing a Dragon Aura
@@ -18,11 +24,10 @@ export default function CalculateChangeGod(god, slot) {
   if (CurrentSlot === '0') SimGod1 = minigame.slot[slot];
   else if (CurrentSlot === '1') SimGod2 = minigame.slot[slot];
   else if (CurrentSlot === '2') SimGod3 = minigame.slot[slot];
-  /* eslint-disable no-unused-vars */
+
   if (slot === 0) SimGod1 = god;
   else if (slot === 1) SimGod2 = god;
   else if (slot === 2) SimGod3 = god;
-  /* eslint-enable no-unused-vars */
 
   const lastAchievementsOwned = SimAchievementsOwned;
   CalculateGains();

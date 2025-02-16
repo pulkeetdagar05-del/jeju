@@ -4,7 +4,7 @@ import {
   CacheMissingUpgrades,
   CacheMissingUpgradesCookies,
   CacheMissingUpgradesPrestige,
-} from '../../../Cache/VariablesAndData';
+} from '../../../Cache/VariablesAndData.js';
 
 /**
  * This function creates the missing upgrades sections for prestige, normal and cookie upgrades
@@ -13,8 +13,7 @@ export function AddMissingUpgrades() {
   l('menu').childNodes.forEach((menuSection) => {
     if (menuSection.children[0]) {
       if (menuSection.children[0].innerHTML === 'Prestige' && CacheMissingUpgradesPrestige) {
-        const prestigeUpgradesMissing =
-          CacheMissingUpgradesPrestige.match(new RegExp('div', 'g') || []).length / 2;
+        const prestigeUpgradesMissing = CacheMissingUpgradesPrestige.match(/div/g || []).length / 2;
         const title = document.createElement('div');
         title.id = 'CMMissingUpgradesPrestigeTitle';
         title.className = 'listing';
@@ -30,8 +29,7 @@ export function AddMissingUpgrades() {
         menuSection.appendChild(upgrades);
       } else if (menuSection.children[0].innerHTML === 'Upgrades') {
         if (CacheMissingUpgrades) {
-          const normalUpgradesMissing =
-            CacheMissingUpgrades.match(new RegExp('div', 'g') || []).length / 2;
+          const normalUpgradesMissing = CacheMissingUpgrades.match(/div/g || []).length / 2;
           const title = document.createElement('div');
           title.id = 'CMMissingUpgradesTitle';
           title.className = 'listing';
@@ -54,8 +52,7 @@ export function AddMissingUpgrades() {
           );
         }
         if (CacheMissingUpgradesCookies) {
-          const cookieUpgradesMissing =
-            CacheMissingUpgradesCookies.match(new RegExp('div', 'g') || []).length / 2;
+          const cookieUpgradesMissing = CacheMissingUpgradesCookies.match(/div/g || []).length / 2;
           const title = document.createElement('div');
           title.id = 'CMMissingUpgradesCookiesTitle';
           title.className = 'listing';

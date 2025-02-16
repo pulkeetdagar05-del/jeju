@@ -1,5 +1,5 @@
-import createMenuOptions from './createMenuOptions';
-import AddMenuStats from './Statistics/AddStatsPage';
+import createMenuOptions from './createMenuOptions.js';
+import AddMenuStats from './Statistics/AddStatsPage.js';
 
 /**
  * This function adds the calll the functions to add extra info to the stats and options pages

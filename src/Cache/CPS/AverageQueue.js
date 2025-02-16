@@ -1,11 +1,11 @@
-import { ClickTimes, CookieTimes } from '../../Disp/VariablesAndData';
+import { ClickTimes, CookieTimes } from '../../Disp/VariablesAndData.js';
 import {
   ChoEggDiff, // eslint-disable-line no-unused-vars
   ClicksDiff, // eslint-disable-line no-unused-vars
   CookiesDiff, // eslint-disable-line no-unused-vars
   WrinkDiff, // eslint-disable-line no-unused-vars
   WrinkFattestDiff, // eslint-disable-line no-unused-vars
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * @class

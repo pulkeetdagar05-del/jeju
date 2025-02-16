@@ -1,8 +1,8 @@
 /** Functions related to Caching stats */
 
-import SimHas from '../../Sim/ReplacedGameFunctions/SimHas';
-import GetCPSBuffMult from '../CPS/GetCPSBuffMult';
-import FillCMDCache from '../FillCMDCache';
+import SimHas from '../../Sim/ReplacedGameFunctions/SimHas.js';
+import GetCPSBuffMult from '../CPS/GetCPSBuffMult.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheConjure,
   CacheConjureReward,
@@ -18,7 +18,7 @@ import {
   CacheLuckyWrathRewardFrenzy,
   CacheNoGoldSwitchCookiesPS,
   CacheWrathCookiesMult,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions caches variables related to the stats page

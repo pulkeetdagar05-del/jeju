@@ -1,21 +1,21 @@
 import jscolor from '@eastdesire/jscolor';
 
-import CMBeautify from '../../Disp/BeautifyAndFormatting/Beautify';
-import FormatTime from '../../Disp/BeautifyAndFormatting/FormatTime';
-import { AddAuraInfo, AddDragonLevelUpTooltip } from '../../Disp/Dragon/Dragon';
-import AddMenu from '../../Disp/MenuSections/AddMenus';
-import UpdateTitle from '../../Disp/TabTitle/TabTitle';
-import ReplaceAscendTooltip from '../../Disp/Tooltips/AscendButton';
-import UpdateTooltipLocation from '../../Disp/Tooltips/PositionLocation';
-import { CMSayTime, Title } from '../../Disp/VariablesAndData'; // eslint-disable-line no-unused-vars
-import { SimDoSims } from '../../Sim/VariablesAndData'; // eslint-disable-line no-unused-vars
-import ReplaceTooltipUpgrade from '../ReplaceGameElements/TooltipUpgrades';
+import CMBeautify from '../../Disp/BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../../Disp/BeautifyAndFormatting/FormatTime.js';
+import { AddAuraInfo, AddDragonLevelUpTooltip } from '../../Disp/Dragon/Dragon.js';
+import AddMenu from '../../Disp/MenuSections/AddMenus.js';
+import UpdateTitle from '../../Disp/TabTitle/TabTitle.js';
+import ReplaceAscendTooltip from '../../Disp/Tooltips/AscendButton.js';
+import UpdateTooltipLocation from '../../Disp/Tooltips/PositionLocation.js';
+import { CMSayTime, Title } from '../../Disp/VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import { SimDoSims } from '../../Sim/VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import ReplaceTooltipUpgrade from '../ReplaceGameElements/TooltipUpgrades.js';
 import {
   BackupFunctions,
   CenturyDateAtBeginLoop, // eslint-disable-line no-unused-vars
   CycliusDateAtBeginLoop, // eslint-disable-line no-unused-vars
-} from '../VariablesAndData';
-import FixMouseY from './FixMouse';
+} from '../VariablesAndData.js';
+import FixMouseY from './FixMouse.js';
 
 /**
  * This function replaces certain native (from the base-game) functions
@@ -123,7 +123,7 @@ export default function ReplaceNative() {
   };
 
   BackupFunctions.sayTime = Game.sayTime;
-  // eslint-disable-next-line no-unused-vars
+
   CMSayTime = function (time, detail) {
     if (Number.isNaN(time) || time <= 0) return BackupFunctions.sayTime(time, detail);
     return FormatTime(time / Game.fps, 1);
@@ -136,7 +136,7 @@ export default function ReplaceNative() {
     // Update tab title
     let title = 'Cookie Clicker';
     if (Game.season === 'fools') title = 'Cookie Baker';
-    // eslint-disable-next-line no-unused-vars
+
     Title = `${Game.OnAscend ? 'Ascending! ' : ''}${CMBeautify(Game.cookies)} ${
       Game.cookies === 1 ? 'cookie' : 'cookies'
     } - ${title}`;

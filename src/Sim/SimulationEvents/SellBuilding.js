@@ -1,5 +1,5 @@
-import SimGetSellMultiplier from '../ReplacedGameFunctions/SimGetSellMultiplier';
-import SimModifyBuildingPrice from '../ReplacedGameFunctions/SimModifyBuidlingPrice';
+import SimGetSellMultiplier from '../ReplacedGameFunctions/SimGetSellMultiplier.js';
+import SimModifyBuildingPrice from '../ReplacedGameFunctions/SimModifyBuidlingPrice.js';
 
 /**
  * This function calculates the cookies returned for selling a building

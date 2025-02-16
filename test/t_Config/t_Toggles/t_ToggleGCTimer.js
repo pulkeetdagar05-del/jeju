@@ -1,10 +1,10 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { l } from '../../GlobalsForTesting';
+import { l } from '../../GlobalsForTesting.js';
 
-import ToggleGCTimer from '../../../src/Config/Toggles/ToggleGCTimer';
-import { GCTimers } from '../../../src/Disp/VariablesAndData';
-import { CacheGoldenShimmersByID } from '../../../src/Cache/VariablesAndData';
+import ToggleGCTimer from '../../../src/Config/Toggles/ToggleGCTimer.js';
+import { GCTimers } from '../../../src/Disp/VariablesAndData.js';
+import { CacheGoldenShimmersByID } from '../../../src/Cache/VariablesAndData.js';
 
 describe('ToggleGCTimer', () => {
   global.l = l;

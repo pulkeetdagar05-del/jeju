@@ -1,12 +1,12 @@
-import GetCPSBuffMult from '../../Cache/CPS/GetCPSBuffMult';
-import { CacheCentEgg } from '../../Cache/VariablesAndData';
-import { CenturyDateAtBeginLoop, CycliusDateAtBeginLoop } from '../../Main/VariablesAndData';
-import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult';
-import SimEff from '../ReplacedGameFunctions/SimEff';
-import SimGetHeavenlyMultiplier from '../ReplacedGameFunctions/SimGetHeavenlyMultiplier';
-import SimHas from '../ReplacedGameFunctions/SimHas';
-import SimHasGod from '../ReplacedGameFunctions/SimHasGod';
-import SimWin from '../SimulationData/SimWin';
+import GetCPSBuffMult from '../../Cache/CPS/GetCPSBuffMult.js';
+import { CacheCentEgg } from '../../Cache/VariablesAndData.js';
+import { CenturyDateAtBeginLoop, CycliusDateAtBeginLoop } from '../../Main/VariablesAndData.js';
+import SimAuraMult from '../ReplacedGameFunctions/SimAuraMult.js';
+import SimEff from '../ReplacedGameFunctions/SimEff.js';
+import SimGetHeavenlyMultiplier from '../ReplacedGameFunctions/SimGetHeavenlyMultiplier.js';
+import SimHas from '../ReplacedGameFunctions/SimHas.js';
+import SimHasGod from '../ReplacedGameFunctions/SimHasGod.js';
+import SimWin from '../SimulationData/SimWin.js';
 import {
   SimAchievementsOwned,
   SimCookiesPs,
@@ -16,7 +16,7 @@ import {
   SimObjects,
   SimPrestige,
   SimUpgrades,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function calculates the CPS of the current "sim data"

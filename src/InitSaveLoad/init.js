@@ -1,10 +1,10 @@
 import { initFunctions } from '@cookiemonsterteam/cookiemonsterframework';
-import { VersionMajor, VersionMinor } from '../Data/Moddata';
-import CMDrawHook from '../Disp/DrawHook';
-import CMClickHook from '../Main/ClickHook';
-import InitializeCookieMonster from '../Main/Initialization';
-import CMLoopHook from '../Main/LoopHook';
-import load from './load';
+import { VersionMajor, VersionMinor } from '../Data/Moddata.js';
+import CMDrawHook from '../Disp/DrawHook.js';
+import CMClickHook from '../Main/ClickHook.js';
+import InitializeCookieMonster from '../Main/Initialization.js';
+import CMLoopHook from '../Main/LoopHook.js';
+import load from './load.js';
 
 /**
  * This creates a init function for the CM object. Per Game code/comments:

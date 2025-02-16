@@ -2,8 +2,8 @@ import {
   CacheHCPerSecond,
   CacheLastHeavenlyChips,
   CacheTimeTillNextPrestige,
-} from '../../Cache/VariablesAndData';
-import Beautify from '../BeautifyAndFormatting/Beautify';
+} from '../../Cache/VariablesAndData.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
 
 /**
  * This function creates a header object for tooltips.

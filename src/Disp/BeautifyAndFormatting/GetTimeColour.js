@@ -1,5 +1,5 @@
-import { ColourGreen, ColourOrange, ColourRed, ColourYellow } from '../VariablesAndData';
-import FormatTime from './FormatTime';
+import { ColourGreen, ColourOrange, ColourRed, ColourYellow } from '../VariablesAndData.js';
+import FormatTime from './FormatTime.js';
 
 /**
  * This function returns the colour to be used for time-strings

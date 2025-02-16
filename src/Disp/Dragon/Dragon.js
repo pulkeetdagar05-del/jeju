@@ -1,10 +1,10 @@
 /** Functions related to the Dragon */
 
-import CacheDragonCost from '../../Cache/Dragon/Dragon';
-import { CacheCostDragonUpgrade } from '../../Cache/VariablesAndData';
-import CalculateChangeAura from '../../Sim/SimulationEvents/AuraChange';
-import Beautify from '../BeautifyAndFormatting/Beautify';
-import FormatTime from '../BeautifyAndFormatting/FormatTime';
+import CacheDragonCost from '../../Cache/Dragon/Dragon.js';
+import { CacheCostDragonUpgrade } from '../../Cache/VariablesAndData.js';
+import CalculateChangeAura from '../../Sim/SimulationEvents/AuraChange.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../BeautifyAndFormatting/FormatTime.js';
 
 /**
  * This functions adds the two extra lines about CPS and time to recover to the aura picker infoscreen

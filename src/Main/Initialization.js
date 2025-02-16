@@ -1,25 +1,25 @@
-import InitCache from '../Cache/CacheInit';
-import { CacheStatsCookies } from '../Cache/Stats/Stats';
-import { VersionMajor, VersionMinor } from '../Data/Moddata';
-import CreateUpgradeBar from '../Disp/BuildingsUpgrades/UpgradeBar';
-import { CreateBotBar } from '../Disp/InfoBars/BottomBar';
-import { CreateTimerBar } from '../Disp/InfoBars/TimerBar';
-import CreateSectionHideButtons from '../Disp/Initialization/CreateSectionHideButtons';
-import CreateWrinklerButtons from '../Disp/Initialization/CreateWrinklerButton';
-import CreateCssArea from '../Disp/Initialization/CssArea';
-import UpdateBuildingUpgradeStyle from '../Disp/Initialization/UpdateBuildingUpgradeStyle';
-import { CreateFavicon } from '../Disp/TabTitle/FavIcon';
-import { CreateSimpleTooltip } from '../Disp/Tooltips/Tooltip';
-import { CMLastAscendState, TooltipText } from '../Disp/VariablesAndData'; // eslint-disable-line no-unused-vars
-import InitData from '../Sim/InitializeData/InitData';
-import ReplaceNativeGrimoire from './ReplaceGameElements/NativeGrimoire';
-import ReplaceTooltips from './ReplaceGameElements/Tooltips';
-import ReplaceNative from './ReplaceGameFunctions/ReplaceNative';
-import { LastModCount } from './VariablesAndData'; // eslint-disable-line no-unused-vars
-import AddWrinklerAreaDetect from './WrinklerArea/AddDetectArea';
-import createBuildingLockButtons from '../Disp/buildingTiles/createBuildingLockButtons';
-// import createMenuInfo from '../Disp/MenuSections/createMenuInfo';
-import createMenuOptions from '../Disp/MenuSections/createMenuOptions';
+import InitCache from '../Cache/CacheInit.js';
+import { CacheStatsCookies } from '../Cache/Stats/Stats.js';
+import { VersionMajor, VersionMinor } from '../Data/Moddata.js';
+import CreateUpgradeBar from '../Disp/BuildingsUpgrades/UpgradeBar.js';
+import { CreateBotBar } from '../Disp/InfoBars/BottomBar.js';
+import { CreateTimerBar } from '../Disp/InfoBars/TimerBar.js';
+import CreateSectionHideButtons from '../Disp/Initialization/CreateSectionHideButtons.js';
+import CreateWrinklerButtons from '../Disp/Initialization/CreateWrinklerButton.js';
+import CreateCssArea from '../Disp/Initialization/CssArea.js';
+import UpdateBuildingUpgradeStyle from '../Disp/Initialization/UpdateBuildingUpgradeStyle.js';
+import { CreateFavicon } from '../Disp/TabTitle/FavIcon.js';
+import { CreateSimpleTooltip } from '../Disp/Tooltips/Tooltip.js';
+import { CMLastAscendState, TooltipText } from '../Disp/VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import InitData from '../Sim/InitializeData/InitData.js';
+import ReplaceNativeGrimoire from './ReplaceGameElements/NativeGrimoire.js';
+import ReplaceTooltips from './ReplaceGameElements/Tooltips.js';
+import ReplaceNative from './ReplaceGameFunctions/ReplaceNative.js';
+import { LastModCount } from './VariablesAndData.js'; // eslint-disable-line no-unused-vars
+import AddWrinklerAreaDetect from './WrinklerArea/AddDetectArea.js';
+import createBuildingLockButtons from '../Disp/buildingTiles/createBuildingLockButtons.js';
+// import createMenuInfo from '../Disp/MenuSections/createMenuInfo.js';
+import createMenuOptions from '../Disp/MenuSections/createMenuOptions.js';
 
 /**
  * Initialization loop of Cookie Monster

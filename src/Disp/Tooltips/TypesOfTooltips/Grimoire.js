@@ -1,8 +1,8 @@
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour';
-import CalculateGrimoireRefillTime from '../../HelperFunctions/CalculateGrimoireRefillTime';
-import { ColourTextPre, TooltipName } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import GetTimeColour from '../../BeautifyAndFormatting/GetTimeColour.js';
+import CalculateGrimoireRefillTime from '../../HelperFunctions/CalculateGrimoireRefillTime.js';
+import { ColourTextPre, TooltipName } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function adds extra info to the Grimoire tooltips

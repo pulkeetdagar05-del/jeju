@@ -10,6 +10,7 @@ function CheckNotificationPermissions(ToggleOnOff) {
     const checkNotificationPromise = function () {
       try {
         Notification.requestPermission().then();
+        // eslint-disable-next-line no-unused-vars
       } catch (e) {
         return false;
       }

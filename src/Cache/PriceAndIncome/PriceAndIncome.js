@@ -1,9 +1,9 @@
 /** Section: Functions related to caching income */
 
-import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding';
-import BuyBuildingsBonusIncome from '../../Sim/SimulationEvents/BuyBuildingBonusIncome';
-import BuyUpgradesBonusIncome from '../../Sim/SimulationEvents/BuyUpgrades';
-import FillCMDCache from '../FillCMDCache';
+import BuildingGetPrice from '../../Sim/SimulationEvents/BuyBuilding.js';
+import BuyBuildingsBonusIncome from '../../Sim/SimulationEvents/BuyBuildingBonusIncome.js';
+import BuyUpgradesBonusIncome from '../../Sim/SimulationEvents/BuyUpgrades.js';
+import FillCMDCache from '../FillCMDCache.js';
 import {
   CacheAverageGainBank,
   CacheAverageGainWrink,
@@ -14,7 +14,7 @@ import {
   CacheObjects100,
   CacheObjectsNextAchievement,
   CacheUpgrades,
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This functions starts the calculation/simulation of the bonus income of buildings

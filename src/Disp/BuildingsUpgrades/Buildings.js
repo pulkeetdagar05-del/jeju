@@ -4,10 +4,10 @@ import {
   CacheObjects10,
   CacheObjects100,
   CacheObjectsNextAchievement,
-} from '../../Cache/VariablesAndData';
-import BuildingSell from '../../Sim/SimulationEvents/SellBuilding';
-import Beautify from '../BeautifyAndFormatting/Beautify';
-import { ColoursOrdering, LastTargetBuildings } from '../VariablesAndData';
+} from '../../Cache/VariablesAndData.js';
+import BuildingSell from '../../Sim/SimulationEvents/SellBuilding.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
+import { ColoursOrdering, LastTargetBuildings } from '../VariablesAndData.js';
 
 /**
  * Section: Functions related to right column of the screen (buildings/upgrades)

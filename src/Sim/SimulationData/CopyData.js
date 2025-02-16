@@ -1,9 +1,9 @@
-import CacheDragonAuras from '../../Cache/Dragon/CacheDragonAuras';
-import { CacheDragonAura, CacheDragonAura2 } from '../../Cache/VariablesAndData';
-import { CreateBotBarBuildingColumn } from '../../Disp/InfoBars/CreateDOMElements';
-import InitAchievement from '../InitializeData/InitAchievement';
-import InitialBuildingData from '../InitializeData/InitialBuildingData';
-import InitUpgrade from '../InitializeData/InitUpgrade';
+import CacheDragonAuras from '../../Cache/Dragon/CacheDragonAuras.js';
+import { CacheDragonAura, CacheDragonAura2 } from '../../Cache/VariablesAndData.js';
+import { CreateBotBarBuildingColumn } from '../../Disp/InfoBars/CreateDOMElements.js';
+import InitAchievement from '../InitializeData/InitAchievement.js';
+import InitialBuildingData from '../InitializeData/InitialBuildingData.js';
+import InitUpgrade from '../InitializeData/InitUpgrade.js';
 import {
   SimAchievements,
   SimAchievementsOwned, // eslint-disable-line no-unused-vars
@@ -18,7 +18,7 @@ import {
   SimPrestige, // eslint-disable-line no-unused-vars
   SimUpgrades,
   SimUpgradesOwned, // eslint-disable-line no-unused-vars
-} from '../VariablesAndData';
+} from '../VariablesAndData.js';
 
 /**
  * This function copies all relevant data and therefore sets a new iteration of the "sim data"

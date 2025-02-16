@@ -1,6 +1,6 @@
-import CalculateChangeGod from '../../Sim/SimulationEvents/GodChange';
-import FillCMDCache from '../FillCMDCache';
-import { CacheGods } from '../VariablesAndData';
+import CalculateChangeGod from '../../Sim/SimulationEvents/GodChange.js';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheGods } from '../VariablesAndData.js';
 
 /**
  * This functions caches the cps effect of each God in slot 1, 2 or 3

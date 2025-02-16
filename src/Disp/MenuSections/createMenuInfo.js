@@ -1,5 +1,5 @@
 import { menuFunctions } from '@cookiemonsterteam/cookiemonsterframework';
-import { LatestReleaseNotes, ModDescription } from '../../Data/Moddata';
+import { LatestReleaseNotes, ModDescription } from '../../Data/Moddata.js';
 
 /**
  * Creates the <div> to be added to the Info section

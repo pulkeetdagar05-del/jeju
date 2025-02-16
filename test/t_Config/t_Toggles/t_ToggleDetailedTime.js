@@ -1,9 +1,9 @@
 import { before, beforeEach, describe, it } from 'mocha';
 import { assert } from 'chai';
-import { Game } from '../../GlobalsForTesting';
+import { Game } from '../../GlobalsForTesting.js';
 
-import ToggleDetailedTime from '../../../src/Config/Toggles/ToggleDetailedTime';
-import { BackupFunctions } from '../../../src/Main/VariablesAndData';
+import ToggleDetailedTime from '../../../src/Config/Toggles/ToggleDetailedTime.js';
+import { BackupFunctions } from '../../../src/Main/VariablesAndData.js';
 
 describe('ToggleDetailedTime', () => {
   global.Game = Game;

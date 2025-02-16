@@ -1,5 +1,5 @@
-import FillCMDCache from '../FillCMDCache';
-import { CacheSeaSpec } from '../VariablesAndData';
+import FillCMDCache from '../FillCMDCache.js';
+import { CacheSeaSpec } from '../VariablesAndData.js';
 
 /**
  * This functions caches the reward of popping a reindeer

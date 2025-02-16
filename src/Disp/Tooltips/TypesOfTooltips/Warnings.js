@@ -1,12 +1,12 @@
-import GetCPSBuffMult from '../../../Cache/CPS/GetCPSBuffMult';
-import { CacheEdifice, CacheLucky } from '../../../Cache/VariablesAndData';
-import ToggleToolWarnPos from '../../../Config/Toggles/ToggleToolWarnPos';
-import Beautify from '../../BeautifyAndFormatting/Beautify';
-import FormatTime from '../../BeautifyAndFormatting/FormatTime';
-import GetCPS from '../../HelperFunctions/GetCPS';
-import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank';
-import { TooltipBonusIncome, TooltipPrice, TooltipType } from '../../VariablesAndData';
-import * as Create from '../CreateTooltip';
+import GetCPSBuffMult from '../../../Cache/CPS/GetCPSBuffMult.js';
+import { CacheEdifice, CacheLucky } from '../../../Cache/VariablesAndData.js';
+import ToggleToolWarnPos from '../../../Config/Toggles/ToggleToolWarnPos.js';
+import Beautify from '../../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../../BeautifyAndFormatting/FormatTime.js';
+import GetCPS from '../../HelperFunctions/GetCPS.js';
+import GetWrinkConfigBank from '../../HelperFunctions/GetWrinkConfigBank.js';
+import { TooltipBonusIncome, TooltipPrice, TooltipType } from '../../VariablesAndData.js';
+import * as Create from '../CreateTooltip.js';
 
 /**
  * This function updates the warnings section of the building and upgrade tooltips

@@ -1,4 +1,4 @@
-import { CacheWrinklersFattest, CacheWrinklersTotal } from '../../Cache/VariablesAndData';
+import { CacheWrinklersFattest, CacheWrinklersTotal } from '../../Cache/VariablesAndData.js';
 
 /**
  * This function returns the total amount stored in the Wrinkler Bank

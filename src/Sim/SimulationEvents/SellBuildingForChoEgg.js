@@ -1,6 +1,11 @@
-import CopyData from '../SimulationData/CopyData';
-import { SimBuildingsOwned, SimDragonAura, SimDragonAura2, SimObjects } from '../VariablesAndData'; // eslint-disable-line no-unused-vars
-import BuildingSell from './SellBuilding';
+import CopyData from '../SimulationData/CopyData.js';
+import {
+  SimBuildingsOwned, // eslint-disable-line no-unused-vars
+  SimDragonAura,
+  SimDragonAura2,
+  SimObjects,
+} from '../VariablesAndData.js';
+import BuildingSell from './SellBuilding.js';
 
 /**
  * This function calculates the maximum cookies obtained from selling buildings just before purchasing the chocolate egg

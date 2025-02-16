@@ -1,15 +1,15 @@
 /** Functions related to the Bottom Bar */
 
-import { CacheObjects1, CacheObjects10, CacheObjects100 } from '../../Cache/VariablesAndData';
-import { VersionMajor, VersionMinor } from '../../Data/Moddata';
-import Beautify from '../BeautifyAndFormatting/Beautify';
-import FormatTime from '../BeautifyAndFormatting/FormatTime';
-import GetTimeColour from '../BeautifyAndFormatting/GetTimeColour';
+import { CacheObjects1, CacheObjects10, CacheObjects100 } from '../../Cache/VariablesAndData.js';
+import { VersionMajor, VersionMinor } from '../../Data/Moddata.js';
+import Beautify from '../BeautifyAndFormatting/Beautify.js';
+import FormatTime from '../BeautifyAndFormatting/FormatTime.js';
+import GetTimeColour from '../BeautifyAndFormatting/GetTimeColour.js';
 
-import GetCPS from '../HelperFunctions/GetCPS';
-import GetWrinkConfigBank from '../HelperFunctions/GetWrinkConfigBank';
-import { ColourBlue, ColourTextPre, ColourYellow, LastTargetBotBar } from '../VariablesAndData';
-import { CreateBotBarBuildingColumn } from './CreateDOMElements';
+import GetCPS from '../HelperFunctions/GetCPS.js';
+import GetWrinkConfigBank from '../HelperFunctions/GetWrinkConfigBank.js';
+import { ColourBlue, ColourTextPre, ColourYellow, LastTargetBotBar } from '../VariablesAndData.js';
+import { CreateBotBarBuildingColumn } from './CreateDOMElements.js';
 
 /**
  * This function creates the bottom bar and appends it to l('wrapper')
