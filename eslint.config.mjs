@@ -42,16 +42,13 @@ export default [
       'import/extensions': ['error', 'ignorePackages'],
       'import/no-mutable-exports': 'off',
       'no-import-assign': 'off',
-
       'no-plusplus': [
         'error',
         {
           allowForLoopAfterthoughts: true,
         },
       ],
-
       'func-names': 'off',
-
       'prefer-destructuring': [
         'error',
         {

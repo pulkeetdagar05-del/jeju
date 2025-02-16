@@ -52,7 +52,7 @@
   },
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "dependencies": {
     "@cookiemonsterteam/cookiemonsterframework": "0.2.3",
