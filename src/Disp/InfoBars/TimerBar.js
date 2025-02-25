@@ -133,9 +133,15 @@ export function UpdateTimerBar() {
       updateChanceTotal(chanceToSpawn);
       l('CMTimerBarGCTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.time) / Game.fps,
-      )} ${getChanceFinal() < 0.01 ? '<' : ''}${getChanceFinal().toLocaleString('en', {
-        style: 'percent',
-      })}`;
+      )} `;
+      if (getChanceFinal() < 0.01) {
+        l('CMTimerBarGCTime').textContent +=
+          `<${(0.01).toLocaleString('en', { style: 'percent' })}`;
+      } else {
+        l('CMTimerBarGCTime').textContent += getChanceFinal().toLocaleString('en', {
+          style: 'percent',
+        });
+      }
       numberOfTimers += 1;
     } else l('CMTimerBarGC').style.display = 'none';
 
@@ -177,9 +183,15 @@ export function UpdateTimerBar() {
       updateChanceTotalDeer(chanceToSpawn);
       l('CMTimerBarRenTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.time) / Game.fps,
-      )} ${getChanceFinalDeer() < 0.01 ? '<' : ''}${getChanceFinalDeer().toLocaleString('en', {
-        style: 'percent',
-      })}`;
+      )} `;
+      if (getChanceFinalDeer() < 0.01) {
+        l('CMTimerBarRenTime').textContent +=
+          `<${(0.01).toLocaleString('en', { style: 'percent' })}`;
+      } else {
+        l('CMTimerBarRenTime').textContent += getChanceFinalDeer().toLocaleString('en', {
+          style: 'percent',
+        });
+      }
       numberOfTimers += 1;
     } else {
       l('CMTimerBarRen').style.display = 'none';
