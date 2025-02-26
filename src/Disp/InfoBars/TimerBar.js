@@ -10,12 +10,7 @@ import {
   LastNumberOfTimers,
 } from '../VariablesAndData.js';
 import { CreateTimer } from './CreateDOMElements.js';
-import {
-  updateChanceTotal,
-  getChanceFinalDeer,
-  getChanceFinal,
-  updateChanceTotalDeer,
-} from '../../Main/CheckStates/Probability.js';
+import { updateChanceTotal, updateChanceTotalDeer } from '../../Main/CheckStates/Probability.js';
 
 /**
  * This function creates the TimerBar and appends it to l('wrapper')
@@ -130,12 +125,18 @@ export function UpdateTimerBar() {
           (Game.shimmerTypes.golden.time - Game.shimmerTypes.golden.minTime) /
             (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.minTime),
         ) ** 5;
-      updateChanceTotal(chanceToSpawn);
+      const finalChance = updateChanceTotal(chanceToSpawn);
       l('CMTimerBarGCTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.time) / Game.fps,
-      )} ${getChanceFinal() < 0.01 ? '<' : ''}${getChanceFinal().toLocaleString('en', {
-        style: 'percent',
-      })}`;
+      )} `;
+      if (finalChance < 0.01) {
+        l('CMTimerBarGCTime').textContent +=
+          `<${(0.01).toLocaleString('en', { style: 'percent' })}`;
+      } else {
+        l('CMTimerBarGCTime').textContent += finalChance.toLocaleString('en', {
+          style: 'percent',
+        });
+      }
       numberOfTimers += 1;
     } else l('CMTimerBarGC').style.display = 'none';
 
@@ -174,12 +175,18 @@ export function UpdateTimerBar() {
           (Game.shimmerTypes.reindeer.time - Game.shimmerTypes.reindeer.minTime) /
             (Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.minTime),
         ) ** 5;
-      updateChanceTotalDeer(chanceToSpawn);
+      const deerFinalChance = updateChanceTotalDeer(chanceToSpawn);
       l('CMTimerBarRenTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.reindeer.maxTime - Game.shimmerTypes.reindeer.time) / Game.fps,
-      )} ${getChanceFinalDeer() < 0.01 ? '<' : ''}${getChanceFinalDeer().toLocaleString('en', {
-        style: 'percent',
-      })}`;
+      )} `;
+      if (deerFinalChance < 0.01) {
+        l('CMTimerBarRenTime').textContent +=
+          `<${(0.01).toLocaleString('en', { style: 'percent' })}`;
+      } else {
+        l('CMTimerBarRenTime').textContent += deerFinalChance.toLocaleString('en', {
+          style: 'percent',
+        });
+      }
       numberOfTimers += 1;
     } else {
       l('CMTimerBarRen').style.display = 'none';
