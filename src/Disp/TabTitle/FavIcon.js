@@ -23,9 +23,9 @@ export function UpdateFavicon() {
   ) {
     if (CacheSpawnedGoldenShimmer.wrath)
       l('CMFavicon').href =
-        'https://CookieMonsterTeam.github.io/CookieMonster/favicon/wrathCookie.ico';
+        'https://raw.githubusercontent.com/WiseDragoon/CookieMonster/refs/heads/dev/favicon/wrathCookie.ico';
     else
       l('CMFavicon').href =
-        'https://CookieMonsterTeam.github.io/CookieMonster/favicon/goldenCookie.ico';
+        'https://raw.githubusercontent.com/WiseDragoon/CookieMonster/refs/heads/dev/favicon/goldenCookie.ico';
   } else l('CMFavicon').href = 'https://orteil.dashnet.org/cookieclicker/favicon.ico';
 }
