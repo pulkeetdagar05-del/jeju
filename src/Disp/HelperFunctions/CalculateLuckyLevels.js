@@ -33,7 +33,7 @@ export function CalculateSevenDelta(number, digitPlace) {
 export default function CalculateLuckyLevels(currentLevel) {
   const result = {};
   let sevenCount = CountSevens(currentLevel);
-  const numberOfDigits = String(currentLevel).length;
+  const numberOfDigits = Math.max(Math.floor(Math.log10(Math.abs(currentLevel))), 0) + 1;
 
   if (sevenCount >= 1) {
     result.luckyDigit = currentLevel;
